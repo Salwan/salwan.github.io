@@ -1,0 +1,58 @@
+{% assign posts_list = site.posts %}
+{% assign posts_count = site.posts | size %}
+{% assign posts_per_page = 5 %}
+{% for node in posts_list limit:posts_per_page %}
+	{% if node.title != null %}
+
+<div class="page-header">
+  <h1>
+	<a href="{{ BASE_PATH }}{{ node.url }}">{{ node.title }}</a>
+	{% if node.tagline %}
+	  <small>{{ node.tagline }}</small>
+	{% endif %}
+  </h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    {{ node.content }}
+    <hr>
+  </div>
+
+  <div class="span4">
+    <section>
+      <h4>Published</h4>
+      <div class="date"><span>{{ node.date | date_to_long_string }}</span></div>
+    </section>
+    {% if node.category %}
+      <section>
+        <h4>Category</h4>
+        <span class="category">
+          {{ node.category }}
+        </span>
+      </section>
+    {% endif %}     
+    {% unless node.tags == empty %}
+      <section>
+        <h4>Tags</h4>
+        <ul class="tag_box">
+          {% assign tags_list = node.tags %}
+          {% include JB/tags_list %}
+        </ul>
+      </section>
+    {% endunless %}         
+  </div>	
+</div>
+
+	{% endif %}
+{% endfor %}
+
+{% if posts_count > posts_per_page %}
+	<hr>
+	<div class="row">
+		<div style="width: 100%; text-align: center">
+			<a class="btn" style="width: 150px;" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">More...</a>
+		</div>
+	</div>
+	<hr>
+{% endif %}
