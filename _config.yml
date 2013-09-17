@@ -12,10 +12,10 @@ title : Zenithia
 tagline: Salwan Hilali
 author :
   name : Salwan Hilali
-  email : me@zenithsal.com
+  #email : me@zenithsal.com
   github : Salwan
   twitter : zenithsal
-  feedburner : feedname
+  feedburner : zenithia
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -82,7 +82,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : zenithia
     livefyre :
       site_id : 123
     intensedebate :
@@ -100,7 +100,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-44110805-1'
     getclicky :
       site_id : 
     mixpanel :
