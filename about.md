@@ -15,3 +15,6 @@ But when I sat down for the first time to work in front of a console devkit, I k
 After finishing my engineering degree, I started developing games for some awesome international game development studios. I have been involved in making great games and I am gathering more knowledge, gaining experience, and developing my craft. Of course, I still make time to play games.
 
 I am excited about the future of games, as well as my own, because I know now that the worst is gone and the best is yet to come.
+
+[Twitter](http://twitter.com/zenithsal) - [Facebook](http://www.facebook.com/salwanmax) - [Plus](https://plus.google.com/107099346990207856455)
+[GitHub](https://github.com/Salwan) - [BitBucket](https://bitbucket.org/Salwan)
