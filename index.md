@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Hello World!
-tagline: Supporting tagline
+title: Home
+tagline: ZenithSal's personal blog.
 ---
 {% include JB/setup %}
 
