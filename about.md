@@ -16,5 +16,5 @@ After finishing my engineering degree, I started developing games for some aweso
 
 I am excited about the future of games, as well as my own, because I know now that the worst is gone and the best is yet to come.
 
-[Twitter](http://twitter.com/zenithsal) - [Facebook](http://www.facebook.com/salwanmax) - [Plus](https://plus.google.com/107099346990207856455)
-[GitHub](https://github.com/Salwan) - [BitBucket](https://bitbucket.org/Salwan)
+[Twitter](http://twitter.com/zenithsal) | [Facebook](http://www.facebook.com/salwanmax) | [Plus](https://plus.google.com/107099346990207856455) | 
+[GitHub](https://github.com/Salwan) | [BitBucket](https://bitbucket.org/Salwan)
