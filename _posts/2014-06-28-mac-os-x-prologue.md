@@ -2,7 +2,7 @@
 layout: post
 title: "Mac OS X: Prologue"
 description: "The journey of moving to OSX for game development"
-category: hardware, osx
+category: hardware
 tags: [hardware, macbook, osx]
 ---
 {% include JB/setup %}
