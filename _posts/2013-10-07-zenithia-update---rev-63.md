@@ -4,6 +4,7 @@ title: "Zenithia update - Rev 63"
 description: "Zenithia updates"
 category: zenithia
 tags: [zenithia, cpp, direct3d]
+published: true
 ---
 {% include JB/setup %}
 
