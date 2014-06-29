@@ -12,7 +12,7 @@ tags: [hardware, macbook, osx]
 [pcmac]: {{site.baseurl}}assets/photos/pc_vs_mac.jpg
 [airpro]: {{site.baseurl}}assets/photos/air_vs_pro.jpg
 
-*A word of warning: this very long post is not about anything in particular, I just felt like writing something :)* 
+*A word of warning: this is a very long post about nothing in particular, I just felt like writing something :)* 
 
 ## Past Considerations 
 
@@ -54,7 +54,7 @@ I ended up taking the fall and shelling out the difference for an 8GB Retina Pro
 
 I've only had it for 2 days now but I'm already putting it under a fair amount of pressure, in fact writing this very post is nothing more than a usability stress test.
 
-The RAM usage so far it hovers around 4-7GB, which leads me to believe that going for the 8GB configuration was a sound decision.
+The RAM usage so far hovers around 4-7GB, which leads me to believe that going for the 8GB configuration was a sound decision.
 
 Here are my current impressions, mostly positive for now:
 
@@ -62,7 +62,7 @@ Here are my current impressions, mostly positive for now:
 - Everything is silky smooth! 8D
 - Retina display includes an extremely useful feature, ability to scale view to get more space when needed up to maximum native resolution. That means for many window applications like any IDE really it's possible to just up the display and instantly get more space. I wish my desktop monitor had something like that.
 - There are many differences in how keyboard works, nothing too annoying so far. Keyboard is physically excellent.
-- Touchpad is extremely accurate compared to the vaio touchpad and its fully clickable surface is more useful than I thought! Dragging is a breeze.
+- Touchpad is extremely accurate compared to the vaio touchpad and its fully clickable surface is more useful than I thought! dragging is a breeze.
 - It's shocking how sturdy the palm wrest areas feel in comparison, the unibody really shines here I think. 
 - Mac OSX comes with a LOT of useful software. Including stuff that make me very happy like Python and Ruby.
 - After installing brew, jekyll via gem, building latest ninja from source and then using that to build TextMate2 (which is what I'm using now to write this), the Linux vibe tickles my heart.
