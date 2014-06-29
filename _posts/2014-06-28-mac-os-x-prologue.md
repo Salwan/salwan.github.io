@@ -42,11 +42,11 @@ Next big question is which configuration to get, an Air or a Pro? that was a que
 
 ![airpro]
 
-The resolution issue is more tricky. I got used to working on 1920x1080 and in fact most of the time I wish I have more space in my desktop monitor. Judging from past experience most likely 1280x800 will end up causing a huge pain especially if I'm planning to do serious amounts of work on the move in the coming months.
+The display resolution issue is more tricky. I got used to working on 1920x1080 and in fact most of the time I wish I have more space in my desktop monitor. Judging from past experience most likely 1280x800 will end up causing a huge pain especially if I'm planning to do serious amounts of work on the move in the coming months.
+
+Pro on the other hand comes in 8GB and 2560x1600 Retina display, both magnificently solve the two issues I have with Air. Pro also comes with a slightly faster CPU, Don't let the difference between Air's 1.xGHz and Pro's 2.xGHz fool you.. they will both throttle up to the same frequency range when heavy processing is required lowering the performance difference to 10%-15% for most practical cases. The Pro though is significantly more expensive than the Air, and frankly it's not worth getting an entry level Pro because it matches the Air in limitations but provides less battery life (12h vs 9h) and slightly heavier (1.35 kg vs 1.5 kg).
 
 ![res_comparison]
-
-Pro on the other hand comes in 8GB and 2560x1600 Retina display, both magnificently solve the two issues I have with Air. Pro also comes with a slightly faster CPU, Don't let the difference between Air's 1.xGHz and Pro's 2.xGHz fool you.. they will both throttle up to the same frequency range when heavy processing is required lowering the performance difference to 10%-15% for most practical cases. The Pro though is significantly more expensive than the Air, and frankly it's not worth getting an entry level Pro because it matches the Air in limitations but provide less battery life (12h vs 9h) and slightly heavier (1.35 kg vs 1.5 kg).
 
 I ended up taking the fall and shelling out the difference for an 8GB Retina Pro, but I'm keeping in mind Apple's return policy in case I end up not finding enough justification for Pro over Air for my usage within the coming few weeks.
 
