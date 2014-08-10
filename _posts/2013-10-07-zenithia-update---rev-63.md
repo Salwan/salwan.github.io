@@ -10,7 +10,7 @@ published: true
 
 Just a quick screenshot showing some progress:
 
-![Basic lighting shaders]({{site.baseurl}}assets/screenshots/zenithia/zenithia_7102013_1.jpg)
+![Basic lighting shaders]({{ site.baseurl }}assets/screenshots/zenithia/zenithia_7102013_1.jpg)
 
 I implemented a common shader library and 3 basic effects using shader model 3 and fx effects: 
 
