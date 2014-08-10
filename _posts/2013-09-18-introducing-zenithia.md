@@ -25,11 +25,13 @@ The basic principles I'm following are:
 - Continuous refactoring
 
 ### Tools
+
 - Visual Studio 2010, C/C++
 - DirectX SDK/PIX
 - NVIDIA Fx Composer 2.5 and HLSL/fx for shader development
 
 ### Planned Features
+
 - Direct3D9 pipeline
 - Direct3D11 pipeline
 - Effects system
