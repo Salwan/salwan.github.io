@@ -29,7 +29,7 @@ The sample code for part 1 includes multiple projects each demonstrating a diffe
 - Skinned animation
 - Facial morphing
 
-![facial animation](https://dl.dropboxusercontent.com/u/29818268/agdn/screenshots/thumbs/facial_morphing.jpg "Facial Animation")
+![facial animation]({{site.baseurl}}assets/screenshots/agdncontest/facial_morphing.jpg "Facial Animation")
 
 All sample projects are written using C/C++ and use Direct3D 9 for graphics.
 
@@ -50,7 +50,7 @@ Part 2 includes 3 sample projects that demonstrate using Cal3D practically with 
 - Loading and animating Vincent PP: uses the programmable pipeline in Direct3D9 to perform rendering and animation offloading bones calculations to the GPU.
 - Graduation Project: a full mini-game that uses Vincent as a playable character.
 
-![graduation project](https://dl.dropboxusercontent.com/u/29818268/agdn/screenshots/thumbs/graduation.jpg "Graduation Project")
+![graduation project]({{site.baseurl}}assets/screenshots/agdncontest/graduation.jpg "Graduation Project")
 
 All sample projects are written using C/C++ and use Direct3D 9 for graphics.
 
