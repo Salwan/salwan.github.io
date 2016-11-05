@@ -35,7 +35,7 @@ All sample projects are written using C/C++ and use Direct3D 9 for graphics.
 
 Additionally, a tool used for exporting models from 3D Studio MAX to .X files is included. (used for the sample projects) and a demonstration video for Natural Motion technology as an example for procedural character animation advances.
 
-####Links:
+#### Links:
 
 - Read online in AGDN: [http://www.agdn-online.com/papers/charanim1.htm](http://www.agdn-online.com/papers/charanim1.htm)
 - Sample code download: [https://dl.dropboxusercontent.com/u/29818268/agdn/charanim_1_files.zip](https://dl.dropboxusercontent.com/u/29818268/agdn/charanim_1_files.zip)
@@ -54,7 +54,7 @@ Part 2 includes 3 sample projects that demonstrate using Cal3D practically with 
 
 All sample projects are written using C/C++ and use Direct3D 9 for graphics.
 
-####Links:
+#### Links:
 
 - Read online in AGDN: [http://www.agdn-online.com/papers/charanim2.htm](http://www.agdn-online.com/papers/charanim2.htm)
 - Sample code download: [https://dl.dropboxusercontent.com/u/29818268/agdn/charanim_2_files.zip](https://dl.dropboxusercontent.com/u/29818268/agdn/charanim_2_files.zip)  

@@ -20,10 +20,8 @@ Frontmatter: http://jekyllrb.com/docs/frontmatter/
 	categories : [lessons, beginner]
 	tags: [one, two]
 	---
-	
-Markdown: http://daringfireball.net/projects/markdown/
-	Cheat Sheet:
-		https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+		
+Kramdown: http://kramdown.gettalong.org/quickref.html
 	
 	
 Liquid: https://github.com/Shopify/liquid
@@ -53,7 +51,7 @@ Github
 Ruby/Gem via RubyInstaller
 Jekyll via gem
 
-Markdown:
+Kramdown:
 ----------------
 
 # H1
@@ -68,6 +66,35 @@ Alt-H1
 
 Alt-H2
 ------
+
+> Blockquote
+>
+> > Nested blockquotes
+
+    Code using 4 spaces
+	
+Colorify something: this is *red*{: style="color: red"}.
+
+~~~
+Code using tildes
+~~~
+
+~~~ python
+print("Howdy?")
+~~~
+
+inline code looks like `this is inline code`
+
+Horizontals, All these work:
+
+* * *
+
+---
+
+ _ _ _ _
+ 
+-------------
+
 
 Emphasis, aka italics, with *asterisks* or _underscores_.
 Strong emphasis, aka bold, with **asterisks** or __underscores__.
