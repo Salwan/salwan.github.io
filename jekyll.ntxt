@@ -1,0 +1,169 @@
+Jekyll Blog Notes
+------------------------------------------
+http://jekyllbootstrap.com/usage/jekyll-quick-start.html
+http://jekyllbootstrap.com/lessons/jekyll-introduction.html
+
+Running Jekyll with auto-regenerate on http://localhost:4000 : jekyll serve --watch
+
+Creating a new post: 
+	rake post title="Hello World"
+	
+Creating a new page: 
+	rake page name="about.md"
+	rake page name="pages/about.md"
+	rake page name="pages/about"
+	
+Frontmatter: http://jekyllrb.com/docs/frontmatter/
+	---
+	layout: post
+	title: Blogging Like a Hacker
+	categories : [lessons, beginner]
+	tags: [one, two]
+	---
+	
+Markdown: http://daringfireball.net/projects/markdown/
+	Cheat Sheet:
+		https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+	
+	
+Liquid: https://github.com/Shopify/liquid
+	<ul id="products">
+	  {% for product in products %}
+		<li>
+		  <h2>{{ product.name }}</h2>
+		  Only {{ product.price | price }}
+
+		  {{ product.description | prettyprint | paragraph }}
+		</li>
+	  {% endfor %}
+	</ul>
+	
+Themes:
+	Install: 
+		rake theme:install git="https://github.com/jekyllboostrap/theme-the-program.git"
+		rake theme:install name="THEME-NAME"
+	Switch:
+		rake theme:switch name="the-program"
+	
+
+Things to Setup:
+----------------
+Python 2.6 or 2.7 (Jykell doesn't support 3)
+Github
+Ruby/Gem via RubyInstaller
+Jekyll via gem
+
+Markdown:
+----------------
+
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+
+Alt-H1
+======
+
+Alt-H2
+------
+
+Emphasis, aka italics, with *asterisks* or _underscores_.
+Strong emphasis, aka bold, with **asterisks** or __underscores__.
+Combined emphasis with **asterisks and _underscores_**.
+Strikethrough uses two tildes. ~~Scratch this.~~
+
+1. First ordered list item
+2. Another item
+  * Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+  1. Ordered sub-list
+4. And another item.
+
+   You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+
+   To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
+   Note that this line is separate, but within the same paragraph.⋅⋅
+   (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+
+* Unordered list can use asterisks
+- Or minuses
++ Or pluses
+
+[I'm an inline-style link](https://www.google.com)
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+[I'm a reference-style link][Arbitrary case-insensitive reference text]
+[I'm a relative reference to a repository file](../blob/master/LICENSE)
+[You can use numbers for reference-style link definitions][1]
+Or leave it empty and use the [link text itself][]
+Some text to show that the reference links can follow later.
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[1]: http://slashdot.org
+[link text itself]: http://www.reddit.com
+
+Here's our logo (hover to see the title text):
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+Reference-style: 
+![alt text][logo]
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+
+Inline `code` has `back-ticks around` it.
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+ 
+ Colons can be used to align columns.
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
+> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
+
+Quote break.
+
+> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
+
+Inline HTML will work directly.
+
+Three or more...
+---
+Hyphens
+***
+Asterisks
+___
+Underscores
+
+Here's a line for us to start with.
+
+This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
+
+This line is also a separate paragraph, but...
+This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
+
+Youtube:
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+or
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
+Advanced Stuff
+-------------------------------------------
+Internal links:
+	use {{site.baseurl}}/path/to/something
+	to test that locally use: jekyll serve --baseurl ''
+
+Pagination:
+	TODO
