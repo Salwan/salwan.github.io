@@ -38,7 +38,7 @@ Additionally, a tool used for exporting models from 3D Studio MAX to .X files is
 #### Links:
 
 - Read online in AGDN: [http://www.agdn-online.com/papers/charanim1.htm](http://www.agdn-online.com/papers/charanim1.htm)
-- Sample code download: [http://zenithsal.com/assets/AGDN/charanim_1_files.zip](charanim_1_files.zip)
+- Sample code download: [charanim_1_files.zip](http://zenithsal.com/assets/AGDN/charanim_1_files.zip)
 
 ## Part 2: Using Cal3D library for Character Animation استخدام مكتبة Cal3D لتحريك الشخصيات
 
@@ -57,4 +57,4 @@ All sample projects are written using C/C++ and use Direct3D 9 for graphics.
 #### Links:
 
 - Read online in AGDN: [http://www.agdn-online.com/papers/charanim2.htm](http://www.agdn-online.com/papers/charanim2.htm)
-- Sample code download: [http://zenithsal.com/assets/AGDN/charanim_2_files.zip](charanim_2_files.zip)  
+- Sample code download: [charanim_2_files.zip](http://zenithsal.com/assets/AGDN/charanim_2_files.zip)  
