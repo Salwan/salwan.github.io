@@ -70,7 +70,6 @@ Viral influential work:
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/7U4-wvhgx0w" frameborder="0" allowfullscreen></iframe>
 </figure>
 
-### Beginning of an international race in AI: ["Rule AI" action plan by China's industry and information technology Ministry](https://www.technologyreview.com/the-download/609791/china-has-a-new-three-year-plan-to-rule-ai/) Notice the focus on development and mass-production of neuromorphic processors.
 
 ## Rise of Neuromorphic Computing Architectures
 
@@ -85,9 +84,11 @@ Current explosion in Neuromorphic Computing:
 * PowerVR Neural Net Accelerator
 * and many more ..
 
+Beginning of an international race in AI: ["Rule AI" action plan by China's industry and information technology Ministry](https://www.technologyreview.com/the-download/609791/china-has-a-new-three-year-plan-to-rule-ai/) Notice the focus on development and mass-production of neuromorphic processors.
+
 Argument that computing power is nearing its peak is invalid. Neuromorphic computing is fundamentally different and is already exceeding traditional digital processing efficiency for Neural Network algorithms significantly.
 
-Perhaps we won't need a fundamentally different approach such as Quantum computing to hit a technological singularity at all!
+Perhaps we won't need a fundamentally different approach such as Quantum computing to hit a technological singularity after all!
 
 ## Brain emulation
 
