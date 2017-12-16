@@ -44,7 +44,7 @@ Viral influential work:
 **Chess: AlphaZero vs Stockfish**
 
 <figure class="video_container">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/7-MborNxYWE" frameborder="0" allowfullscreen></iframe>
+	<iframe width="720" height="405" src="https://www.youtube.com/embed/7-MborNxYWE" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 ### [OpenAI](https://openai.com/) (Elon Musk's pre-emptive plan for AGI)
@@ -67,7 +67,7 @@ Viral influential work:
 **Dota 2: Dendi vs OpenAI**
 
 <figure class="video_container">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/7U4-wvhgx0w" frameborder="0" allowfullscreen></iframe>
+	<iframe width="720" height="405" src="https://www.youtube.com/embed/7U4-wvhgx0w" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 
@@ -126,7 +126,7 @@ AGI religion already exists although still very low-profile: [Way of the Future]
 *WARNING: Video contains **spoilers**!*
 
 <figure class="video_container">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/8yT2oXEpGmg" frameborder="0" allowfullscreen></iframe>
+	<iframe width="720" height="405" src="https://www.youtube.com/embed/8yT2oXEpGmg" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 + [Transcendence](https://www.netflix.com/title/70266675)
@@ -143,13 +143,13 @@ Change could either be uplifting us or ending our civilization. We cannot stop i
 Videos related to the topic:
 
 <figure class="video_container">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/MnT1xgZgkpk" frameborder="0" allowfullscreen></iframe>
+	<iframe width="720" height="405" src="https://www.youtube.com/embed/MnT1xgZgkpk" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 <figure class="video_container">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/8nt3edWLgIg" frameborder="0" allowfullscreen></iframe>
+	<iframe width="720" height="405" src="https://www.youtube.com/embed/8nt3edWLgIg" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 <figure class="video_container">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/Xc2tiSH_eBg" frameborder="0" allowfullscreen></iframe>
+	<iframe width="720" height="405" src="https://www.youtube.com/embed/Xc2tiSH_eBg" frameborder="0" allowfullscreen></iframe>
 </figure>
