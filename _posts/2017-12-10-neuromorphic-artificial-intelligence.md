@@ -7,7 +7,7 @@ tags: [ai,neuralnetworks]
 ---
 {% include JB/setup %}
 
-This is mostly going to be an information dump. The amount of stuff happening out there these last few months is just mind-blowing. Progress achieved from mid 2016 till time of writing this post (end of 2017) wasn't only impressive but paradigm shifting.
+This is mostly going to be an information dump. I've been researching this for a month or two and the amount of stuff happening out there these last few months is just mind-blowing. Progress achieved from mid 2016 till time of writing this post (end of 2017) wasn't only impressive but paradigm shifting.
 
 First off, this is not about robots or androids or skynet. This is about artificial intelligence that runs on software and hardware designed to resemble biological intelligence. Everytime you swipe through Snapchat's filters, you're running a variation of that intelligence that attempts to find where your face is, match its orientation and scale to superimpose dog-ears or makeup.
 
