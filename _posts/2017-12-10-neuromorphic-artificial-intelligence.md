@@ -9,7 +9,7 @@ tags: [ai,neuralnetworks]
 
 This is mostly going to be an information dump. The amount of stuff happening out there these last few months is just mind-blowing. Progress achieved from mid 2016 till time of writing this post (end of 2017) wasn't only impressive but paradigm shifting.
 
-First off, this is not about robots or androids or skynet. This is about artificial intelligence that runs on software and hardware designed to resemble how biological intelligence. Everytime you swipe through Snapchat's filters, you're running a variation of that intelligence that attempts to find where your face is, match its orientation and scale to superimpose dog-ears or fake makeup.
+First off, this is not about robots or androids or skynet. This is about artificial intelligence that runs on software and hardware designed to resemble biological intelligence. Everytime you swipe through Snapchat's filters, you're running a variation of that intelligence that attempts to find where your face is, match its orientation and scale to superimpose dog-ears or makeup.
 
 While exploring this stuff, you might want to listen to the Machine from [Person of Interest](http://www.imdb.com/title/tt1839578/) which is perfectly appropriate:
 
@@ -30,7 +30,7 @@ Name of the game (so far): *Recusrive self-improvement via reinforcement learnin
 
 #### Stated purpose
 
-> If we’re successful, we believe this will be one of the most important and widely beneficial scientific advances ever made, increasing our capacity to understand the mysteries of the universe and to tackle some of our most pressing real-world challenges. From climate change to the need for radically improved healthcare, too many problems suffer from painfully slow progress, their complexity overwhelming our ability to find solutions. With AI as a multiplier for human ingenuity, those solutions will come into reach. 
+> If we’re successful, we believe this will be one of the most important and widely beneficial scientific advances ever made, increasing our capacity to understand the mysteries of the universe and to tackle some of our most pressing real-world challenges. From climate change to the need for radically improved healthcare, too many problems suffer from painfully slow progress, their complexity overwhelming our ability to find solutions. With AI as a multiplier for human ingenuity, those solutions will come into reach.
 
 Viral influential work:
 
@@ -49,11 +49,11 @@ Viral influential work:
 
 ### [OpenAI](https://openai.com/) (Elon Musk's pre-emptive plan for AGI)
 
-#### Stated goal: 
+#### Stated goal:
 
 > Discovering and enacting the path to safe artificial general intelligence.
 
-#### Stated purpose: 
+#### Stated purpose:
 
 > OpenAI's mission is to build safe AGI, and ensure AGI's benefits are as widely and evenly distributed as possible. We expect AI technologies to be hugely impactful in the short term, but their impact will be outstripped by that of the first AGIs.
 
@@ -70,9 +70,11 @@ Viral influential work:
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/7U4-wvhgx0w" frameborder="0" allowfullscreen></iframe>
 </figure>
 
+### Beginning of an international race in AI: ["Rule AI" action plan by China's industry and information technology Ministry](https://www.technologyreview.com/the-download/609791/china-has-a-new-three-year-plan-to-rule-ai/) Notice the focus on development and mass-production of neuromorphic processors.
+
 ## Rise of Neuromorphic Computing Architectures
 
-Current explosion in Neuromorphic Computing: 
+Current explosion in Neuromorphic Computing:
 
 * [IBM TrueNorth (DARPA)](http://www.research.ibm.com/articles/brain-chip.shtml)
 * [Intel Nervana Neural Network Processor (First Neuromorphic desktop processor)](https://www.intelnervana.com/)
@@ -83,7 +85,7 @@ Current explosion in Neuromorphic Computing:
 * PowerVR Neural Net Accelerator
 * and many more ..
 
-Argument that computing power is nearing its peak is invalid. Neuromorphic computing is fundamentally different and is already exceeding traditional digital processing efficiency for Neural Network algorithms significantly. 
+Argument that computing power is nearing its peak is invalid. Neuromorphic computing is fundamentally different and is already exceeding traditional digital processing efficiency for Neural Network algorithms significantly.
 
 Perhaps we won't need a fundamentally different approach such as Quantum computing to hit a technological singularity at all!
 
@@ -103,7 +105,7 @@ Google since May 2017 has 10^17 ops-per-second spiking(?) neural network tensorf
 
 --------------------------------------------------------
 
-Multiple projects to simulate the human brain are underway: 
+Multiple projects to simulate the human brain are underway:
 
 * [Human Brain Project](https://www.humanbrainproject.eu/en/) -> [SpiNNaker](http://apt.cs.manchester.ac.uk/projects/SpiNNaker/)
 * [Brain/MINDS](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4387516/)
@@ -127,13 +129,13 @@ AGI religion already exists although still very low-profile: [Way of the Future]
 </figure>
 
 + [Transcendence](https://www.netflix.com/title/70266675)
- 
+
 
 + [Her](https://www.netflix.com/title/70278933)
 
 ## Perspective
 
-This is our future. There is a 50% probability that by year 2045 we will create an intelligence that will change humanity forever in ways we can't even imagine now. 
+This is our future. There is a 50% probability that by year 2045 we will create an intelligence that will change humanity forever in ways we can't even imagine now.
 
 Change could either be uplifting us or ending our civilization. We cannot stop it, we can only prepare to do it right by making sure the first AGI is what scientists and researchers call "friendly AI".
 
@@ -150,5 +152,3 @@ Videos related to the topic:
 <figure class="video_container">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/Xc2tiSH_eBg" frameborder="0" allowfullscreen></iframe>
 </figure>
-
-
