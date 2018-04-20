@@ -12,10 +12,6 @@ published: true
 [asmblit_gif]: {{site.baseurl}}assets/photos/pc6002/asmblit.gif
 [blitz_demo_gif]: {{site.baseurl}}assets/photos/pc6002/blitz_demo.gif
 
-# Who is this for?
-
-This is not meant to be a tutorial. It is just information, resources and methods for anyone who programmed on Warka PCs in the past and always wanted to do more, it's also suitable for anyone who worked on similar platforms (Amstrad CPC, BBC Micro, etc) and is curious about how PC-6001 works beyond the BASIC interpreter.
-
 # Toolbox
 
 The most important tool you need is a good emulator! Here are two excellent emulators with all necessary settings and files as well as a collection of PC-6001 games and demos for testing [here](https://mega.nz/#!yugQDCqY!KZSDhtveWfBtMtP8Qx8s-GudQO7hdkIxOciNmjjuX7c):
