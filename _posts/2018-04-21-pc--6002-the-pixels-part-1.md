@@ -4,7 +4,7 @@ title:  "PC-6002: The Pixels - Part 1"
 description: "Mode 5: Toolbox and the first z80 blits"
 category: pc-6002
 tags: [pc-6001,pc-6002,Warka,z80,retro]
-published: false
+published: true
 ---
 
 {% include JB/setup %}
