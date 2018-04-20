@@ -23,7 +23,7 @@ Of course both emulators use Japanese ROMs, maybe in the future if I had access 
 
 ## Assembly programming
 
-PC-60 is based on the Z80 processor. I found a nice tutorial online that goes through setting up and using ZASM (z80 assembler) to compile PC-6001 programs then injecting them into PC-6001 at runtime using the PC6001VW3's debugger: http://www.geocities.jp/tiny_yarou/asmdev/asmdev.html (japanese)
+All PC-60 models use a Z80 processor. I found a nice tutorial online that goes through setting up and using ZASM (z80 assembler) to compile PC-6001 programs then injecting them into PC-6001 at runtime using the PC6001VW3's debugger: http://www.geocities.jp/tiny_yarou/asmdev/asmdev.html (japanese)
 
 This is the easiest development path for deployment, it also produces the fastest & smallest code. For actual programming though, assembly may not be for everyone.
 
