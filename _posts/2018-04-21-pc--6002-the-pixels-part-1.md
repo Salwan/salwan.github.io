@@ -14,7 +14,7 @@ published: false
 
 # Who is this for?
 
-This is not a tutorial or a guide. It is information, resources and methods for anyone who programmed on Warka PCs in the past and always wanted more information, it's also suitable for anyone who worked on similar platforms (Amstrad CPC, BBC Micro, etc) and is curious about how PC-6001 works beyond the BASIC interpreter.
+This is not meant to be a tutorial. It is just information, resources and methods for anyone who programmed on Warka PCs in the past and always wanted to do more, it's also suitable for anyone who worked on similar platforms (Amstrad CPC, BBC Micro, etc) and is curious about how PC-6001 works beyond the BASIC interpreter.
 
 # Toolbox
 
