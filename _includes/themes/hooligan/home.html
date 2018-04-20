@@ -1,6 +1,7 @@
 {% assign posts_list = site.posts %}
 {% assign posts_count = site.posts | size %}
 {% assign posts_per_page = 5 %}
+{% assign full_posts = 5 %}
 {% for node in posts_list limit:posts_per_page %}
 	{% if node.title != null %}
 
@@ -8,14 +9,19 @@
   <h1>
 	<a href="{{ BASE_PATH }}{{ node.url }}">{{ node.title }}</a>
 	{% if node.tagline %}
-	  <small>{{ node.tagline }}</small>
+	  <small>{{ node.tagline }} </small>
 	{% endif %}
   </h1>
 </div>
 
 <div class="row">
   <div class="span8">
-    {{ node.content }}
+	{% if full_posts > 0 %}
+		{{ node.content }}
+		{% assign full_posts = full_posts - 1 %}
+	{% else %}
+		{{ node.excerpt }}
+	{% endif %}
 		<div align="right">
 			<a class="btn" href="{{ BASE_PATH }}{{node.url}}">Discuss...</a>
 		</div>
