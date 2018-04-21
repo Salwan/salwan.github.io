@@ -153,7 +153,8 @@ Every block of 8 pixels are represented by 2 bytes. The first is in the specifie
 
 So the reason why X is limited to multiples of 8 is simply because thats how pixels are layed out in memory, if you want to change a single pixel/color from assembly you'd have to do some bit wrangling.
 
-The way they managed to encode 8 pixels (16 color each) in 2 bytes is by cheating, Mode 3 is actually 160x200, every pixel is doubled horizontally. As a result this is how text looks like in mode 3:
+The way they managed to encode 8 pixels (16 color each) in 2 bytes is by cheating! Mode 3 is actually 160x200 where every pixel is doubled horizontally. 
+As a result this is how text looks like in mode 3:
 
 ![mode3_text_gif]
 
