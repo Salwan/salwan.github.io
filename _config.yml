@@ -2,7 +2,7 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
 
-exclude: ["pages.md", ".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "jkserve.sh", "jekyll.ntxt"]
+exclude: ["pages.html", ".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "jkserve.sh", "jekyll.ntxt"]
 highlighter: rouge
 markdown: kramdown
 baseurl: http://zenithsal.com/
