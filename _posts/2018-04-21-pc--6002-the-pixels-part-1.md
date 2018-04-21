@@ -23,7 +23,7 @@ Of course both emulators use Japanese ROMs, maybe in the future if I had access 
 
 ## Assembly programming
 
-All PC-60 models use a Z80 processor. I found a nice tutorial online that goes through setting up and using ZASM (z80 assembler) to compile PC-6001 programs then injecting them into PC-6001 at runtime using the PC6001VW3's debugger: [asmdev](http://www.geocities.jp/tiny_yarou/asmdev/asmdev.html) (japanese)
+All PC-60 models use a Z80 processor. I found a nice tutorial online that goes through setting up and using ZASM (z80 assembler) to compile PC-6001 programs then injecting them into PC-6001 at runtime using the PC6001VW3's debugger: [http://www.geocities.jp/tiny_yarou/asmdev/asmdev.html](http://www.geocities.jp/tiny_yarou/asmdev/asmdev.html) (japanese)
 
 This is the easiest development path for deployment, it also produces the fastest & smallest code. For actual programming though, assembly may not be for everyone.
 
@@ -41,7 +41,7 @@ I will cover the C programming pipeline for PC-6001 in a future post.
 
 For this trip through Pixel lane, we'll use MODE 5 with 4 PAGES.
 
-The main sample program this exploration is based on is written by Tiny Yarou who seems to be the most active PC-60 developer on the internet. Here's the sample program: [p6sample](http://www.tiny-yarou.com/p6sample.html)
+The main sample program this exploration is based on is written by Tiny Yarou who seems to be the most active PC-60 developer on the internet. Here's the sample program: [http://www.tiny-yarou.com/p6sample.html](http://www.tiny-yarou.com/p6sample.html)
 
 The information are in Japanese of course but the BASIC code and hex code tell us everything we need.
 
