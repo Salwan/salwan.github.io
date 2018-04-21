@@ -60,7 +60,7 @@ The BASIC code in the sample is self-explaintory, it sets up addresses, writes t
 
 Disassembling (and reverse engineering) the z80 procedure, I was able to learn a lot: 
 
-{% highlight asm %}
+{% highlight nasm %}
 ; PC-6001 MkII (64K) Mode 5 Page 4
 ; Blit function: from spritebuffer page to frontbuffer
 ORG 0D000H;
@@ -168,7 +168,7 @@ In general, there are 2 methods to do this based on what I currently know:
 
 For both methods we need a clear procedure. So I modified the sample program to do just that:
 
-{% highlight asm %}
+{% highlight nasm %}
 ; PC-6001 MkII (64K) Mode 5 Page 3
 ; Blit Zero function: clears pixels from screen
 ORG 0D080H;
