@@ -27,6 +27,9 @@ td {
 	border-left: 1px solid rgba(200, 200, 255, 0.2);
   padding: 4px;
 }
+tr {
+  border-top: 1px solid rgba(200, 200, 255, 0.2);
+}
 th {
     border: 1px solid rgba(200, 200, 255, 0.2);
     padding: 4px;
