@@ -20,13 +20,15 @@ body {
 }
 
 table {
-	border-bottom: 1px solid rgba(200, 200, 255, 0.2);
+	border-bottom: 1px solid rgba(200, 200, 255, 0.4);
+  border-right: 1px solid rgba(200, 200, 255, 0.4);
 }
 td {
-	border-left: 1px solid rgba(200, 200, 255, 0.2);
+	border-left: 1px solid rgba(200, 200, 255, 0.4);
+  padding: 2px;
 }
 th {
-    border: 1px solid rgba(200, 200, 255, 0.2);
+    border: 1px solid rgba(200, 200, 255, 0.4);
 }
 
 /* line 26, ../_sass/_base.scss */
