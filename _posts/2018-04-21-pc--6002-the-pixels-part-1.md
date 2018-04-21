@@ -11,6 +11,7 @@ published: true
 
 [asmblit_gif]: {{site.baseurl}}assets/photos/pc6002/asmblit.gif
 [blitz_demo_gif]: {{site.baseurl}}assets/photos/pc6002/blitz_demo.gif
+[mode3_text_gif]: {{site.baseurl}}assets/photos/pc6002/mode3_text.gif
 
 # Toolbox
 
@@ -145,16 +146,20 @@ Here are some observations:
 The rest is pretty straight forward assembly. What the procedure is doing on a high level is this:
 
 - Figure out the pointer to the first pixel block in spritebuffer for the sprite and first pixel in frontbuffer to draw the sprite to.
-- Loop while copying bytes from spritebuffer to frontbuffer on horizontal line at a time.
+- Loop while copying bytes from spritebuffer to frontbuffer one horizontal line at a time.
 
 
-Every block of 8 pixels are represented by 2 bytes. The first is in the normal PAGE buffer and the second is offset +0x2000 in memory (that's what SET 5, H and D effectively do). The combination of the first and second value produces the pattern and colors of that particular 8 pixels.
+Every block of 8 pixels are represented by 2 bytes. The first is in the specified PAGE address and the second is offset by +0x2000 in memory (that's what SET 5, H and D effectively do). The combination of the first and second bytes produces the pattern and colors of that particular 8 pixels block.
 
 So the reason why X is limited to multiples of 8 is simply because thats how pixels are layed out in memory, if you want to change a single pixel/color from assembly you'd have to do some bit wrangling.
 
+The way they managed to encode 8 pixels (16 color each) in 2 bytes is by cheating, Mode 3 is actually 160x200, every pixel is doubled horizontally. As a result this is how text looks like in mode 3:
+
+![mode3_text_gif]
+
 # Sprite Movement
 
-PC-6001 doesn't have hardware sprites, so moving sprites around requires some trickery.
+PC-6001 doesn't support hardware sprites (as far as I know), so moving sprites around requires some trickery.
 
 In general, there are 2 methods to do this based on what I currently know:
 
@@ -236,3 +241,4 @@ I created a minimal test for the two procedures:
 ![blitz_demo_gif]
 
 For the next part, I'm going to write a tool to help import PNGs into N66 BASIC then code a movement function that does the blitting and clearing automatically.
+
