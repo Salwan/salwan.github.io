@@ -3,6 +3,7 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: ["pages", ".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "jkserve.sh", "jekyll.ntxt"]
+inlude: ["pages.md"]
 highlighter: rouge
 markdown: kramdown
 baseurl: http://zenithsal.com/
