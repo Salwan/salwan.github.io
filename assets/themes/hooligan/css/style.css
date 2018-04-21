@@ -19,6 +19,16 @@ body {
   font-size: 14px;
 }
 
+table {
+	border-bottom: 1px solid rgba(200, 200, 255, 0.2);
+}
+td {
+	border-left: 1px solid rgba(200, 200, 255, 0.2);
+}
+th {
+    border: 1px solid rgba(200, 200, 255, 0.2);
+}
+
 /* line 26, ../_sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
