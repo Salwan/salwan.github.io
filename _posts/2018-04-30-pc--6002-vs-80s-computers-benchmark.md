@@ -55,7 +55,7 @@ Ultimately, both are left in the dust when compared to the excellent architectur
 
 On the other hand, the Amiga architecture is way ahead along with Atari ST, both targeted a different market (much more expensive at the time) and powered by the 68000 which went on to power the SEGA Genesis/Mega Drive later on. 
 
-For comparison how far things have come, the difference between this low-power low-performance tablet-laptop and the CPC 464 is merely 238x (lol). But if we theoretically drop down the clock for the Atom x5-z8350 from its normal frequency 1.2GHz to 4MHz (a factor of approximately 1/300), it would run the [same benchmark program in CPython](https://pastebin.com/0RN4fb0p) in approximately: 0.337s * 300 = 1:41.10 which puts it below the CPC 464.
+For comparison with how far things have come, the difference between this low-power low-performance tablet-laptop I'm using to write this now and the CPC 464 is merely 238x (lol). But if we theoretically drop down the clock for this Atom x5-z8350 from its normal frequency 1.2GHz to 4MHz (a factor of approximately 1/300), it would run the [same benchmark program in CPython](https://pastebin.com/0RN4fb0p) in approximately: 0.337s * 300 = 1:41.10 which puts it below the CPC 464.
 
 By the way, the ARM processor architecture is historically a grandchild of the 6502 processor. In fact the initial instruction set was developed using the BBC Micro BASIC!
 
