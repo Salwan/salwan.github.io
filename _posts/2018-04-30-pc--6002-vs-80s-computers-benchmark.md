@@ -43,7 +43,8 @@ This is mostly a test of the embedded BASIC interpreter rather than the processi
 | MSX 1 ([Al-Sakhr 170](https://en.wikipedia.org/wiki/Sakhr_Computers)) | Z80 @ 4MHz | *3:54* |
 | MSX 2 and 2+                 | Z80 @ 4MHz   | *3:57*     |
 | Amiga A500 AmigaBasic        | 68000 @ 7.16MHz | *0:35*  |
-| [This Laptop](https://www.asus.com/2-in-1-PCs/ASUS-Transformer-Mini-T102HA/specifications/) using [Python](https://pastebin.com/0RN4fb0p) | Atom x5-Z8350 @ 1.44GHz | *0.337s* |
+| [Nintendo 3DS: SmileBASIC](http://smilebasic.com/en/)      | ARM11 @ 804MHz | *0.086s* |
+| [This Laptop](https://www.asus.com/2-in-1-PCs/ASUS-Transformer-Mini-T102HA/specifications/): [Python](https://pastebin.com/0RN4fb0p) | Atom x5-Z8350 @ 1.44GHz | *0.337s* |
 |----------------------------------------------------------|
 
 
@@ -56,6 +57,8 @@ Ultimately, both are left in the dust when compared to the excellent architectur
 On the other hand, the Amiga architecture is way ahead along with Atari ST, both targeted a different market (much more expensive at the time) and powered by the 68000 which went on to power the SEGA Genesis/Mega Drive later on. 
 
 For comparison with how far things have come, the difference between this low-power low-performance tablet-laptop I'm using to write this now and the CPC 464 is merely 238x (lol). But if we theoretically drop down the clock for this Atom x5-z8350 from its normal frequency 1.2GHz to 4MHz (a factor of approximately 1/300), it would run the [same benchmark program in CPython](https://pastebin.com/0RN4fb0p) in approximately: 0.337s * 300 = 1:41.10 which puts it below the CPC 464.
+
+[Nintendo 3DS's SmileBASIC](http://smilebasic.com/en/) is an interesting one, the developers who created it are fans of NEC PC architectures so it's essentially a modern extended implementation of that, with impressive performance and a high level of polish.
 
 By the way, the ARM processor architecture is historically a grandchild of the 6502 processor. In fact the initial instruction set was developed using the BBC Micro BASIC!
 
