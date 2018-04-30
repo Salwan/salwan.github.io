@@ -21,7 +21,8 @@ body {
 
 table {
 	border-bottom: 1px solid rgba(200, 200, 255, 0.2);
-  border-right: 1px solid rgba(200, 200, 255, 0.2);
+  	border-right: 1px solid rgba(200, 200, 255, 0.2);
+	margin-bottom: 1em;
 }
 td {
 	border-left: 1px solid rgba(200, 200, 255, 0.2);
