@@ -43,7 +43,7 @@ This is mostly a test of the embedded BASIC interpreter rather than the processi
 | MSX 1 ([Al-Sakhr 170](https://en.wikipedia.org/wiki/Sakhr_Computers)) | Z80 @ 4MHz | *3:54* |
 | MSX 2 and 2+                 | Z80 @ 4MHz   | *3:57*     |
 | Amiga A500 AmigaBasic        | 68000 @ 7.16MHz | *0:35*  |
-| [This Laptop](https://www.asus.com/2-in-1-PCs/ASUS-Transformer-Mini-T102HA/specifications/) [Python](https://pastebin.com/0RN4fb0p) | Atom x5-Z8350 @ 1.44GHz | *0.337s* |
+| [This Laptop](https://www.asus.com/2-in-1-PCs/ASUS-Transformer-Mini-T102HA/specifications/) using [Python](https://pastebin.com/0RN4fb0p) | Atom x5-Z8350 @ 1.44GHz | *0.337s* |
 |----------------------------------------------------------|
 
 The massive variance in performance is surprising! the PC-6001 Mk2 is especially disappointing.. which is a mystery as it shares the same architecture with MSX, and both use a BASIC interpreter developed by Microsoft around the same time.
@@ -54,8 +54,8 @@ Ultimately, both are left in the dust when compared to the excellent architectur
 
 On the other hand, the Amiga architecture is way ahead along with Atari ST, both targeted a different market (much more expensive at the time) and powered by the 68000 which went on to power the SEGA Genesis/Mega Drive later on. 
 
-For comparison how far things have come, the difference between this low-power low-performance tablet-laptop and the CPC 464 is merely 238x (lol). But if we theoretically drop down the clock for the Atom x5-z8350 from its normal frequency 1.2GHz to 4MHz (a factor of approximately 1/300), it would run the [same benchmark program in CPython](https://pastebin.com/0RN4fb0p) in approximately: 0.337s * 300 = 1:41.10 which puts it bellow the CPC 464!
+For comparison how far things have come, the difference between this low-power low-performance tablet-laptop and the CPC 464 is merely 238x (lol). But if we theoretically drop down the clock for the Atom x5-z8350 from its normal frequency 1.2GHz to 4MHz (a factor of approximately 1/300), it would run the [same benchmark program in CPython](https://pastebin.com/0RN4fb0p) in approximately: 0.337s * 300 = 1:41.10 which puts it below the CPC 464.
 
 By the way, the ARM processor architecture is historically a grandchild of the 6502 processor. In fact the initial instruction set was developed using the BBC Micro BASIC!
 
-Another interesting thing is that the Z80 processor was developed to be compatible with the Intel 8080 machine language.
+Another interesting thing is that the Z80 processor was developed to be software compatible with the Intel 8080 machine language.
