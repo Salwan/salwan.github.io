@@ -59,8 +59,4 @@ For comparison how far things have come, the difference between this low-power l
 
 By the way, the ARM processor architecture is historically a grandchild of the 6502 processor. In fact the initial instruction set was developed using the BBC Micro BASIC!
 
-<<<<<<< HEAD
 Another interesting thing is that the Z80 processor was developed to be software compatible with the Intel 8080 machine language.
-=======
-Another interesting thing is that the Z80 processor was developed to be compatible with the Intel 8080 machine language.
->>>>>>> fbb9aeb92b03f91d5ce219cfe5aee3b1d59db9bc
