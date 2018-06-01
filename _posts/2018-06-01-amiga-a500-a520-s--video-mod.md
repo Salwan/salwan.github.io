@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Amiga A500 A520 S-Video Mod"
+title:  "Amiga A500: A520 S-Video Mod"
 description: "Modifying A520 for Amiga A500 to output S-Video"
 category: amiga
 tags: [amiga,electronics,retro]
@@ -18,8 +18,6 @@ published: true
 
 [svideo_conversion_guide]: http://members.iinet.net.au/~davem2/overclock/A520.html
 [svideo_to_rca]: {{site.baseurl}}assets/photos/amiga500/svideo_to_rca.gif
-
-# Amiga A520
 
 When I bought my Amiga A500 from [trademe](https://www.trademe.co.nz/) it came with a compatible monitor which had some old-monitor problems related to picture quality. I expected that as CRT monitors do tend to deteriote in quality over the years and also tend to die suddenly.
 
