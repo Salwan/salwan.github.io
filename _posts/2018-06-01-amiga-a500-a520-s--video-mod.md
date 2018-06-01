@@ -19,7 +19,7 @@ published: true
 [svideo_conversion_guide]: http://members.iinet.net.au/~davem2/overclock/A520.html
 [svideo_to_rca]: {{site.baseurl}}assets/photos/amiga500/svideo_to_rca.gif
 
-When I bought my Amiga A500 from [trademe](https://www.trademe.co.nz/) it came with a compatible monitor which had some old-monitor problems related to picture quality. I expected that as CRT monitors do tend to deteriote in quality over the years and also tend to die suddenly.
+When I bought my [Amiga A500](https://twitter.com/zenithsal/status/735033118126538753) from [TradeMe](https://www.trademe.co.nz/) it came with a compatible monitor which had some old-monitor problems related to picture quality. I expected that as CRT monitors do tend to deteriote in quality over the years and also tend to die suddenly.
 
 Was not proven wrong as the monitor did die one day with a click and a whine. Now the Amiga A500 has a video out port but puzzlingly it only outputs black and white!
 
