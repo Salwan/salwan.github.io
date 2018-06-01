@@ -56,15 +56,15 @@ Did a quick breadboard test and voila! Got video out to display on TV:
 
 ![svideo_testing2]
 
-The difference was very clear even for a camera:
+The difference was very clear even through my phone's a camera:
 
 ![svideo_before_after]
 
-Adding that capacitor to the output then rewiring and reseating the board and we got a modified A520 ready for use:
+Adding that capacitor to the output then rewiring and reseating the board, and we have a modified A520 ready for use:
 
 ![a520_ready]
 
-I left it running for many hours to make sure everything is working as it should
+I left it running for several hours to make sure everything is working as it should
 
 ![svideo_ready]
 
