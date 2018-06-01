@@ -46,7 +46,7 @@ I decided to try it. Ordered all the electronics components needed 2 weeks ago a
 
 S-Video output means I get two signals out of the modified A520 one called Chroma (letter C) and one called Luma (letter Y for some reason). It wasn't clear in the guide how to convert that to a single RCS video-out signal, there are commercial S-Video to RCA converters but I felt since I went this far might as well try adding the conversion to the circuit.
 
-Upon googling, I was surprised that this conversion requires a single component and it's extremely easy to do! Just a single capacitor 470 μF across the Chroma and Luma outputs.
+Upon googling, I was surprised that this conversion requires a single component and it's extremely easy to do! Just a single capacitor 470 pF across the Chroma and Luma outputs.
 
 ![svideo_to_rca]
 
