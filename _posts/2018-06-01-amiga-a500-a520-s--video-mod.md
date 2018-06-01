@@ -24,15 +24,17 @@ When I bought my [Amiga A500](https://twitter.com/zenithsal/status/7350331181265
 
 ![my_amiga_a500]
 
-Was not proven wrong as the monitor did die one day with a click and a whine. Now the Amiga A500 has a video out port but puzzlingly it only outputs black and white!
+I was not proven wrong as the monitor did die a few weeks later with a click and a whine. 
 
-I searched for how to connect the Amiga to a modern monitor either RGB or HDMI and found that the only indirect way to do it is using a very ugly extension device called A520 which provides an RCA video-out signal in color as well as RF out.
+The Amiga A500 has a video-out port but puzzlingly it outputs in greyscale only.
+
+I searched for how to connect the Amiga to a modern monitor using either RGB or HDMI and found that the only indirect way to do it is using an ugly commodore adapter device called A520 which provides an RCA video-out signal in color as well as RF out.
 
 ![a520]
 
-Someone was selling a pair of these on ebay so I got them, they both worked but one of them seems to need some maintenance as it needs a bit of moving around when plugged in to output in color! Sometimes it insists on only outputing blurry black and white.
+Someone was selling a pair of these on ebay so I got them, they both worked but one of them seemed to need some maintenance as it required a bit of fiddling around when plugged in to output in color. Sometimes it insists on only outputing blurry greyscale.
 
-I ran the output to an LCD TV using RCA video and audio out, both produced awful blurry quality that made it very difficult to read the text even! Since then the Amiga was unusable.
+I ran the output to an LCD TV using RCA video and audio out, both produced awful blurry quality picture that made it very difficult to read any text. Since then the Amiga was all but unusable.
 
 # Modifying to output S-Video
 
