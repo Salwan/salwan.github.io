@@ -28,7 +28,7 @@ I was not proven wrong as the monitor did die a few weeks later with a click and
 
 The Amiga A500 has a video-out port but puzzlingly it outputs in greyscale only.
 
-I searched for how to connect the Amiga to a modern monitor using either RGB or HDMI and found that the only indirect way to do it is using an ugly commodore adapter device called A520 which provides an RCA video-out signal in color as well as RF out.
+I searched for how to connect the Amiga to a modern monitor using either RGB or HDMI and found that the only indirect way to do it is using an ugly commodore Amiga adapter device called A520 which provides an RCA video-out signal in color as well as RF out.
 
 ![a520]
 
