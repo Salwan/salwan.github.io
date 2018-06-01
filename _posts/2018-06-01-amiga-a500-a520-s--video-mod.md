@@ -9,6 +9,7 @@ published: true
 
 {% include JB/setup %}
 
+[my_amiga_a500]: {{site.baseurl}}assets/photos/amiga500/my_amiga_a500.jpg "Day 1 Amiga A500"
 [a520]: {{site.baseurl}}assets/photos/amiga500/a520.jpg "Commodore A520"
 [svideo_testing]: {{site.baseurl}}assets/photos/amiga500/svideo_testing.jpg "Testing conversion of S-Video to RCA video"
 [svideo_testing2]: {{site.baseurl}}assets/photos/amiga500/svideo_testing2.jpg "Looking Good! Time to wrap up"
@@ -20,6 +21,8 @@ published: true
 [svideo_to_rca]: {{site.baseurl}}assets/photos/amiga500/svideo_to_rca.gif
 
 When I bought my [Amiga A500](https://twitter.com/zenithsal/status/735033118126538753) from [TradeMe](https://www.trademe.co.nz/) it came with a compatible monitor which had some old-monitor problems related to picture quality. I expected that as CRT monitors do tend to deteriote in quality over the years and also tend to die suddenly.
+
+![my_amiga_a500]
 
 Was not proven wrong as the monitor did die one day with a click and a whine. Now the Amiga A500 has a video out port but puzzlingly it only outputs black and white!
 
