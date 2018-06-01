@@ -36,11 +36,11 @@ Someone was selling a pair of these on ebay so I got them, they both worked but 
 
 I ran the output to an LCD TV using RCA video and audio out, both produced awful blurry quality picture that made it very difficult to read any text. Since then the Amiga was all but unusable.
 
-# Modifying to output S-Video
+# Modifying A520 to output S-Video
 
-I had to decide what to do with the Amiga (either sell it or find a way to get good quality output making it usable again), when doing a quick search I found this [great step-by-step guide][svideo_conversion_guide] to converting the A520 to output S-Video signal which should make it usable again.
+I had to decide what to do with the Amiga (either sell it or find a way to get good quality output making it usable again), when doing a quick search I found this [great step-by-step guide][svideo_conversion_guide] for converting the A520 to output S-Video signal which should make it usable again.
 
-I decided to try it. Ordered the electronics components I needed 2 weeks ago and when they arrived setup a work area and spent a day going through all the steps. After many hours and 3 solder-iron burns I got it done. I just needed to test it.
+I decided to try it. Ordered all the electronics components needed 2 weeks ago and when they arrived setup a work area and spent a day going through all the steps. After many hours and 3 solder-iron burns I got it done. I just needed to test it.
 
 # S-Video to RCA Video Out
 
