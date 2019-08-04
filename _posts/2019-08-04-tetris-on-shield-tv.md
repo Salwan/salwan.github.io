@@ -19,4 +19,4 @@ I thought I'll try something very simple, a minimal tetris written as straight f
 
 [Play TVTetris here](https://tic.computer/play?cart=912)
 
-![tvtetris](https://tic.computer/play?cart=912)
+![tvtetris]
