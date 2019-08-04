@@ -17,6 +17,6 @@ A while ago I set up [TIC-80](https://tic.computer/) on NVIDIA Shield TV and hoo
 
 I thought I'll try something very simple, a minimal tetris written as straight forward as possible was what I went with. I enjoyed it thoroughly and how easy and fast developing it on lua was. It only took me a few hours to finish covering all features I wanted. I think this might be the fastest game I've ever finished to date!
 
-![tvtetris]
-
 [Play TVTetris here](https://tic.computer/play?cart=912)
+
+![tvtetris](https://tic.computer/play?cart=912)
