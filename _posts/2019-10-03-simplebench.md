@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Benchmarking current devices using simplebench script"
+title:  "Benchmarking using simplebench script"
 description: "Running a simple benchmark on multiple platforms and runtimes"
 category: programming
 tags: [programming,python,lua,cpp,raspberrypi,snapdragon,benchmarking]
@@ -76,23 +76,33 @@ For each measured time, I ran the simplebench script/binary more than 10 times a
 |Mobile/Snapdragon 855 2.84GHz   |0.23s   |2.37s   |         |       |        |       |      |0.758s  |
 |Laptop/Core i7 8550U 1.8GHz     |0.18s   |1.0s    |0.037s   |0.012s |0.011s  |0.053s |0.018s|        |
 |Laptop/Pentium 4415Y 1.6GHz     |0.46s   |3.65s   |0.094s   |0.020s |0.030s  |       |      |1.411s  |
-|Desktop/AMD Ryzen 5 3.2GHz      |0.24s   |1.38s   |0.031s   |0.008s |0.011s  |       |0.011s|0.725s  |
+|Desktop/AMD Ryzen 5 3.2GHz      |0.22s   |1.38s   |0.031s   |0.008s |0.011s  |       |0.011s|0.725s  |
 |ShieldTV/Cortex A57             |        |        |         |       |        |       |      |1.496s  |
 |-----------------------------------------------------------------------------------------------------|
 
-Conclusions:
+## Conclusions:
 
-Mobile phone processors are catching up to laptop processors very quickly. I've read that Snapdragon 855 is similar in performance to a current gen core i3, and these results confirm that. In Lua for example, it's actually 0.01s faster than my desktop PC's ryzen 5 1600!
+#### Snapdragon 855
+
+Mobile phone processors are catching up to laptop processors very quickly. I've read that Snapdragon 855 is similar in performance to a current gen core i3, and these results confirm that. It's especially impressive that Snapdragon 855 is almost exactly matching a desktop PC Ryzen 5 1600 in both Lua and Godot/GDScript!
+
+#### Python
 
 CPython is so incredibly slower than everything else which comes as a no surprise, some of my old CPython/PyGame games struggled to hit 60 fps on laptop processors at the time without some sort of jit thrown in (back then I used [Psyco](http://psyco.sourceforge.net/))
 
 Pypy runtime (which uses jit) is impressively quick in comparison to CPython, it almost matches mono actually, it's a surprise it hasn't become the dominant python runtime yet!
 
+#### Lua/JIT
+
 As expected, lua is very fast for a fully interpreted language. I wish CPython was closer to that.
 
-luajit is damn impressive. Actually really close to native C++ performance! Which is insane.
+Luajit is damn impressive. Actually really close to native C++ performance! Which is insane.
+
+#### Javascript
 
 The anomaly here is NodeJS which uses the excellently optimized [Google V8 engine](https://v8.dev/). Not only did it match but actually surpass native C++ performance on 2 platforms. I have no explanation other than blaming it on timer precision? but I'm not surprised its performance is that good as it not only runs 100% of the web, but a growing list of desktop applications like this very editor I'm using to write these words now.
+
+#### Godot/GDScript
 
 Godot's GDScript is not as bad as I thought it'll be, about 2x CPython. Alone it would make Godot a terrible solution for bigger games, but luckily Godot allows C++ modules to be used for critical bits and Mono/C# support is almost ready for prime time.
 
