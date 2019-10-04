@@ -2,8 +2,8 @@
 layout: post
 title:  "Benchmarking using simplebench script"
 description: "Running a simple benchmark on multiple platforms and runtimes"
-category: programming
-tags: [programming,python,lua,cpp,raspberrypi,snapdragon,benchmarking]
+category: benchmarking
+tags: [python,lua,cpp,raspberrypi,snapdragon,benchmarking]
 published: true
 ---
 

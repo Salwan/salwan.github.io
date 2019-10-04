@@ -3,7 +3,7 @@ layout: post
 title:  "PC-6002 vs 80s Computers Benchmark"
 description: "Simple benchmark for a group of 80s computers"
 category: pc-6002
-tags: [pc-6001,pc-6002,Warka,z80,retro]
+tags: [pc-6001,pc-6002,Warka,z80,retro,benchmarking]
 published: true
 ---
 

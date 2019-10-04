@@ -136,6 +136,11 @@ Reference-style:
 ![alt text][logo]
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
+Example: 
+
+* adding a naked link [https://github.com/cassiozen/AS3-State-Machine]()
+* embedding a photo ![Ares Launch Platform]({{site.baseurl}}assets/photos/tumblr/ares-launch-platform.jpg)
+
 Inline `code` has `back-ticks around` it.
 {% highlight ruby %}
 def foo
