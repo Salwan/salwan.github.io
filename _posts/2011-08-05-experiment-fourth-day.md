@@ -25,11 +25,11 @@ Here, listen and enjoy: [Darko](https://soundcloud.com/progressivedarko)
 
 I’m considering to participate in next [Ludum Dare](https://ldjam.com/), which is a dual-game making competition/jam held every 4 months. The competition imposes interesting rules:
 
-    You must work alone (solo) 
-    All game code and content must be created within 48 hours. Base-code and libraries are allowed on the condition that you announce them before the competition starts and share them with all other competitors.
-    Games must be based on the theme, which is announced before the competition starts.
-    All libraries, middleware, content creation, and development tools are allowed.
-    Source code must be included. (yay! closed source devs will hate it :D)
+> You must work alone (solo) 
+> All game code and content must be created within 48 hours. Base-code and libraries are allowed on the condition that you announce them before the competition starts and share them with all other competitors.
+> Games must be based on the theme, which is announced before the competition starts.
+> All libraries, middleware, content creation, and development tools are allowed.
+> Source code must be included. (yay! closed source devs will hate it :D)
 
 Next competition is exactly in 14 days, 20 hours, 37 minutes, 52 seconds (and 233ms), which happens to be 19th of August, and lasts till 22nd of August.
 
