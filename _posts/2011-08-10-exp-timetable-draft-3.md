@@ -13,10 +13,10 @@ published: true
 
 Yesterday, I didn’t have internet, I sat down and analyzed what was bad about draft 1 timetable. The things I came up with are as follows:
 
-    It was too restrictive and quite inflexible. Everything depends on how strict I followed the timetable
-    It didn’t feel like I have a choice for the whole day
-    Some days I have an errand or two which would happen at a random time, sometimes there is an event or a party that I want to go to, either of these would throw the whole timetable off
-    There are so many different things to do every week, it causes a bit of confusion, and takes time from the higher priority things.
+* It was too restrictive and quite inflexible. Everything depends on how strict I followed the timetable
+* It didn’t feel like I have a choice for the whole day
+* Some days I have an errand or two which would happen at a random time, sometimes there is an event or a party that I want to go to, either of these would throw the whole timetable off
+* There are so many different things to do every week, it causes a bit of confusion, and takes time from the higher priority things.
 
 The only advantage of draft 1 timetable, is the balance between creativity and work. Which I admit felt really good, work is stressing, creativity is letting go. But I’m gonna try not to do that this time.
 
