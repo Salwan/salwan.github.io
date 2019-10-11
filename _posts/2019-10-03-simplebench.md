@@ -73,7 +73,7 @@ For each measured time, I ran the simplebench script/binary more than 10 times a
 |RaspberryPi4/Cortex A72 1.6GHz  |0.61s   |4.3s    |0.14s    |0.061s |0.045s  |0.136s |0.087s|        |
 |Laptop/Core i5 4258U 2.4GHz     |0.22s   |1.2s    |0.041s   |0.018s |0.015s  |0.045s |0.025s|0.637s  |
 |Laptop/AMD E-450 1.65GHz        |1.17s   |7.2s    |0.210s   |0.110s |0.079s  |0.233s |0.152s|        |
-|Mobile/Snapdragon 855 2.84GHz   |0.23s   |2.37s   |         |       |        |       |      |0.758s  |
+|Mobile/Snapdragon 855 2.84GHz   |0.36s   |1.68s   |         |0.013s |0.020s  |       |      |0.758s  |
 |Laptop/Core i7 8550U 1.8GHz     |0.18s   |1.0s    |0.037s   |0.012s |0.011s  |0.053s |0.018s|        |
 |Laptop/Pentium 4415Y 1.6GHz     |0.46s   |3.65s   |0.094s   |0.020s |0.030s  |       |      |1.411s  |
 |Desktop/AMD Ryzen 5 1600 3.2GHz |0.22s   |1.38s   |0.031s   |0.008s |0.011s  |       |0.011s|0.725s  |
