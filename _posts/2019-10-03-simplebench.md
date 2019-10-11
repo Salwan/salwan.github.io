@@ -76,7 +76,8 @@ For each measured time, I ran the simplebench script/binary more than 10 times a
 |Mobile/Snapdragon 855 2.84GHz   |0.23s   |2.37s   |         |       |        |       |      |0.758s  |
 |Laptop/Core i7 8550U 1.8GHz     |0.18s   |1.0s    |0.037s   |0.012s |0.011s  |0.053s |0.018s|        |
 |Laptop/Pentium 4415Y 1.6GHz     |0.46s   |3.65s   |0.094s   |0.020s |0.030s  |       |      |1.411s  |
-|Desktop/AMD Ryzen 5 3.2GHz      |0.22s   |1.38s   |0.031s   |0.008s |0.011s  |       |0.011s|0.725s  |
+|Desktop/AMD Ryzen 5 1600 3.2GHz |0.22s   |1.38s   |0.031s   |0.008s |0.011s  |       |0.011s|0.725s  |
+|Desktop/AMD Ryzen 7 3700X 3.6GHz|0.156s  |1.26s   |0.026s   |0.007  |0.008s  |0.014  |      |0.496s  |
 |ShieldTV/Cortex A57             |        |        |         |       |        |       |      |1.496s  |
 |-----------------------------------------------------------------------------------------------------|
 
