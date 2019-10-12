@@ -46,6 +46,7 @@ Here are the systems I ran simplebench on:
 
 * Raspberry Pi 4: Cortex A72 1.5GHz, Raspbian
 * Desktop PC: AMD Ryzen 5 1600 3.2GHz, Windows 10
+* Desktop PC: AMD Ryzen 7 3700X 3.6GHz, Windows 10
 * Laptop: Intel Core i5-4258U 2.4GHz, Kubuntu 18.04
 * Laptop: Intel Core i7-8550U 1.8GHz, Kubuntu 18.04
 * Laptop: Intel Pentium 4415Y 1.6GHz, Windows 10
@@ -55,7 +56,7 @@ Here are the systems I ran simplebench on:
 
 Here are the runtimes I used to run the benchmarks on:
 
-* GCC 7+ C++14
+* GCC 7+ C++14 (alternatively clang++ C++14) with -O3 flag
 * Mono
 * Lua 5.1+ and luajit
 * NodeJS 8
@@ -77,7 +78,7 @@ For each measured time, I ran the simplebench script/binary more than 10 times a
 |Laptop/Core i7 8550U 1.8GHz     |0.18s   |1.0s    |0.037s   |0.012s |0.011s  |0.053s |0.018s|        |
 |Laptop/Pentium 4415Y 1.6GHz     |0.46s   |3.65s   |0.094s   |0.020s |0.030s  |       |      |1.411s  |
 |Desktop/AMD Ryzen 5 1600 3.2GHz |0.22s   |1.38s   |0.031s   |0.008s |0.011s  |       |0.011s|0.725s  |
-|Desktop/AMD Ryzen 7 3700X 3.6GHz|0.156s  |1.26s   |0.026s   |0.007  |0.008s  |0.014  |      |0.496s  |
+|Desktop/AMD Ryzen 7 3700X 3.6GHz|0.156s  |1.26s   |0.026s   |0.007s |0.008s  |0.014s |      |0.496s  |
 |ShieldTV/Cortex A57             |        |        |         |       |        |       |      |1.496s  |
 |-----------------------------------------------------------------------------------------------------|
 
@@ -85,7 +86,7 @@ For each measured time, I ran the simplebench script/binary more than 10 times a
 
 #### Snapdragon 855
 
-Mobile phone processors are catching up to laptop processors very quickly. I've read that Snapdragon 855 is similar in performance to a current gen core i3, and these results confirm that. It's especially impressive that Snapdragon 855 is almost exactly matching a desktop PC Ryzen 5 1600 in both Lua and Godot/GDScript!
+Mobile phone processors are catching up to laptop processors very quickly. I've read that Snapdragon 855 is similar in performance to a current gen core i3, and these results confirm that. It's especially impressive that Snapdragon 855 is almost exactly matching a desktop PC Ryzen 5 1600 in Godot/GDScript and very close in Lua and Python.
 
 #### Python
 
@@ -93,11 +94,11 @@ CPython is so incredibly slower than everything else which comes as a no surpris
 
 Pypy runtime (which uses jit) is impressively quick in comparison to CPython, it almost matches mono actually, it's a surprise it hasn't become the dominant python runtime yet!
 
-#### Lua/JIT
+#### Lua and LuaJIT
 
 As expected, lua is very fast for a fully interpreted language. I wish CPython was closer to that.
 
-Luajit is damn impressive. Actually really close to native C++ performance! Which is insane.
+LuaJIT is damn impressive. Actually really close to native C++ performance! Which is insane.
 
 #### Javascript
 
