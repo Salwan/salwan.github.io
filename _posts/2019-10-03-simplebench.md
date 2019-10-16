@@ -56,13 +56,14 @@ Here are the systems I ran simplebench on:
 
 Here are the runtimes I used to run the benchmarks on:
 
-* GCC 7+ C++14 (alternatively clang++ C++14) with -O3 flag
+* GCC 7+ (alternatively clang) with -std=c++14 and -O3 flags
 * Mono
 * Lua 5.1+ and luajit
 * NodeJS 8
 * Godot 3.1
 * Python 2.7
 * PyPy
+* termux for Android devices 
 
 I wanted to put minimal time into this so I didn't try to run everything on every platforms, just what's easily doable.
 
@@ -79,7 +80,7 @@ For each measured time, I ran the simplebench script/binary more than 10 times a
 |Laptop/Pentium 4415Y 1.6GHz     |0.46s   |3.65s   |0.094s   |0.020s |0.030s  |       |      |1.411s  |
 |Desktop/AMD Ryzen 5 1600 3.2GHz |0.22s   |1.38s   |0.031s   |0.008s |0.011s  |       |0.011s|0.725s  |
 |Desktop/AMD Ryzen 7 3700X 3.6GHz|0.156s  |1.26s   |0.026s   |0.007s |0.008s  |0.014s |      |0.496s  |
-|ShieldTV/Cortex A57             |        |        |         |       |        |       |      |1.496s  |
+|ShieldTV/Cortex A57 2.01GHz     |0.745s  |4.73s   |         |0.049s |0.012s  |       |      |1.496s  |
 |-----------------------------------------------------------------------------------------------------|
 
 ## Conclusions:
@@ -90,9 +91,9 @@ Mobile phone processors are catching up to laptop processors very quickly. I've 
 
 #### Python
 
-CPython is so incredibly slower than everything else which comes as a no surprise, some of my old CPython/PyGame games struggled to hit 60 fps on laptop processors at the time without some sort of jit thrown in (back then I used [Psyco](http://psyco.sourceforge.net/))
+CPython is so incredibly slower than everything else which comes as a no surprise, some of my old CPython/PyGame games struggled to hit 60 fps on laptop processors at the time without some sort of just-in-time compilation thrown in (back then I used [Psyco](http://psyco.sourceforge.net/))
 
-Pypy runtime (which uses jit) is impressively quick in comparison to CPython, it almost matches mono actually, it's a surprise it hasn't become the dominant python runtime yet!
+Pypy runtime (which is a decendent of psyco, full jit compilation) is impressively quick in comparison to CPython, it almost matches mono actually, it's a surprise pypy hasn't become the dominant python runtime yet! I think it ought to be.
 
 #### Lua and LuaJIT
 
@@ -102,9 +103,11 @@ LuaJIT is damn impressive. Actually really close to native C++ performance! Whic
 
 #### Javascript
 
-The anomaly here is NodeJS which uses the excellently optimized [Google V8 engine](https://v8.dev/). Not only did it match but actually surpass native C++ performance on 2 platforms. I have no explanation other than blaming it on timer precision? but I'm not surprised its performance is that good as it not only runs 100% of the web, but a growing list of desktop applications like this very editor I'm using to write these words now.
+The anomaly here is NodeJS which uses the excellently optimized [Google V8 engine](https://v8.dev/). Not only did it match but actually surpass native C++ performance on several platforms. I have no explanation other than blaming it on timer precision? but I'm not surprised its performance is that good as it not only runs 100% of the web, but a growing list of desktop/mobile applications like this very editor I'm using to write these words now.
+
+It's worth noting that the startup time when running `node simplebench.js` is almost as slow as compiling the C++ version. This indicates some hardcore jit compilation taking place before actual execution of the script starts. 
 
 #### Godot/GDScript
 
-Godot's GDScript is not as bad as I thought it'll be, about 2x CPython. Alone it would make Godot a terrible solution for bigger games, but luckily Godot allows C++ modules to be used for critical bits and Mono/C# support is almost ready for prime time.
+Godot's GDScript is not as bad as I thought it'll be, about 2x CPython. Alone it would make Godot a terrible solution for bigger games, but luckily Godot allows C++ modules to be used for critical bits and Mono/C# support is almost ready for prime time. I'm hoping at some point in the future they decide to reimplement GDScript to compile to Mono in the future.
 
