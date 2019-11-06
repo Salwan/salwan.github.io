@@ -12,7 +12,7 @@ First computer: [NEC PC-6001 Mk2 SR](http://www.old-computers.com/museum/compute
 
 First console: [Atari 2600 Jr](https://www.youtube.com/watch?v=lCfcZ89wrFM)
 
-Music-making tool of choice: [OpenMPT](https://openmpt.org/)
+Music-making tool of choice: [OpenMPT](https://openmpt.org/) and Studio One 3
 
 Art-making tool of choice: [Affinity Designer](https://affinity.serif.com/en-gb/designer/)
 
@@ -22,17 +22,20 @@ Favorite Game Engine: [Godot](https://godotengine.org/)
 
 Favorite Linux distro: [Fedora](https://getfedora.org/)
 
-Motorcycle of choice: [Suzuki SV650](https://www.youtube.com/watch?v=ihTJIvyOXzI)
+Motorcycle of choice: [Suzuki SV650](https://www.youtube.com/watch?v=ihTJIvyOXzI) 2019
 
 Favorite drink: Cherry Coke Zero
 
-Favorite games: Metal Gear Solid, Tomb Raider, Final Fantasy, Shenmue/Yakuza, Battlefield, Minecraft, Disciples II, Sudden Strike
+Favorite games: Metal Gear Solid, Tomb Raider, Final Fantasy, Shenmue/Yakuza, Minecraft, Disciples II, Horizon Zero Dawn
 
 Here's some music, cause why not?
+
+<figure class="video_container">
+	<iframe width="560" height="180" src="https://www.youtube.com/embed/9c93ljrAZAw" frameborder="0" allowfullscreen></iframe>
+</figure>
 
 <figure class="video_container">
 	<iframe width="560" height="180" src="https://www.youtube.com/embed/lCB0ef3Y-rI" frameborder="0" allowfullscreen></iframe>
 </figure>
 
-[Twitter](http://twitter.com/zenithsal) | [Facebook](http://www.facebook.com/salwanmax) | [Plus](https://plus.google.com/107099346990207856455) | 
-[GitHub](https://github.com/Salwan) | [BitBucket](https://bitbucket.org/Salwan)
+[Twitter](http://twitter.com/zenithsal) | [Facebook](http://www.facebook.com/salwanmax) | [GitHub](https://github.com/Salwan) | [BitBucket](https://bitbucket.org/Salwan)
