@@ -30,10 +30,12 @@ Favorite games: Metal Gear Solid, Tomb Raider, Final Fantasy, Shenmue/Yakuza, Mi
 
 Here's some music, cause why not?
 
-<iframe width="560" height="180" src="https://www.youtube-nocookie.com/embed/9c93ljrAZAw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figure class="video_container">
+	<iframe width="560" height="180" src="https://www.youtube-nocookie.com/embed/9c93ljrAZAw" frameborder="0" allowfullscreen></iframe>
+</figure>
 
 <figure class="video_container">
-	<iframe width="560" height="180" src="https://www.youtube.com/embed/lCB0ef3Y-rI" frameborder="0" allowfullscreen></iframe>
+	<iframe width="560" height="180" src="https://www.youtube-nocookie.com/embed/lCB0ef3Y-rI" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 [Twitter](http://twitter.com/zenithsal) | [Facebook](http://www.facebook.com/salwanmax) | [GitHub](https://github.com/Salwan) | [BitBucket](https://bitbucket.org/Salwan)
