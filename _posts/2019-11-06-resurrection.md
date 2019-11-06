@@ -11,23 +11,23 @@ published: true
 
 I resurrected a bunch of old projects done for either fun or while job hunting:
 
-1. [Mr. White](http://zenithsal.com/other/my-phaser-playground/Project1/mrwhite.html)
+* [Mr. White](http://zenithsal.com/other/my-phaser-playground/Project1/mrwhite.html)
 
 This is a demo made to breath life into a mockup screenshot I found online. Don't remember where I got the mockup from but I like the vibe :)
 
 Demo is written using javascript/PhaserJS directly on the [sadly-ruined-to-milk-for-money-by-amazon website Cloud9](https://aws.amazon.com/cloud9/?origin=c9io). I find it infuriating that rather than supporting the c9 platform and the growing community that used it for small projects, Amazon ate the service and now only allow using it through their hyper-complex-absurdly-massive AWS mess of enterprise stuff.
 
-2. [Shapeverse](http://zenithsal.com/other/shapeverse2/)
+* [Shapeverse](http://zenithsal.com/other/shapeverse2/)
 
 This is a simple shapes application written in Typescript/Angular. It lets you: create/delete shapes, select and transform existing shapes, and saves everything by default so if you refresh the page it should restore your scene.
 
-3. [SMB1](http://zenithsal.com/other/smb1)
+* [SMB1](http://zenithsal.com/other/smb1)
 
 This is a demo to try to imitate Super Mario Bros character controls as close as possible. Written using Typescript/PhaserJS in Cloud9 (when it was usable). I didn't intend for it to be a full game.
 
 
 
-### Remastering Zamron
+## Remastering Zamron
 
 Through October, myself and my brother worked to remaster an old game of mine, Zamron Encounter. We had two goals:
 
