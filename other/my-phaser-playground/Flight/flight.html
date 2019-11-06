@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Project1</title>
+    <meta charset="utf-8">
+    <script src="//cdn.jsdelivr.net/phaser/2.4.6/phaser.js"></script>
+</head>
+<body>
+    <div id="game"></div>
+    
+    <!-- Prevent default arrow keys window scrolling -->
+    <script type="text/javascript">
+        window.addEventListener("keydown", function(e) {
+            if([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+                e.preventDefault();
+            }
+        }, false);
+    </script>
+    
+    <script src="code/predef.js"></script>
+    <script src="code/utils.js"></script>
+    <script src="code/debugsy.js"></script>
+    
+    <script type="text/javascript">
+    'use strict';
+    /* global Phaser */
+    /* global Debugsy */
+    var game = new Phaser.Game(640, 400, Phaser.AUTO, 'game');
+    var gfxDraw = null;
+    var debugsy = new Debugsy(game);
+    </script>
+    
+    <script src="code/startup.js"></script>
+    <script src="code/startgame.js"></script>
+    <script src="code/mainmenu.js"></script>
+    <script src="code/gameplay.js"></script>
+    
+    <script type="text/javascript">
+    game.state.add('Startup', Startup, false);
+    game.state.add('StartGame', StartGame, false);
+    game.state.add('MainMenu', MainMenu, false);
+    game.state.add('Gameplay', Gameplay, false);
+    game.state.start("Startup", false);
+    </script>
+</body>
+</html>

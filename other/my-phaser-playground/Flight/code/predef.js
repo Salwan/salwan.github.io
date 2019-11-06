@@ -1,0 +1,2 @@
+// Predefinitions
+var DEBUG = true;
