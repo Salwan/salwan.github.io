@@ -30,9 +30,7 @@ Favorite games: Metal Gear Solid, Tomb Raider, Final Fantasy, Shenmue/Yakuza, Mi
 
 Here's some music, cause why not?
 
-<figure class="video_container">
-	<iframe width="560" height="180" src="https://www.youtube.com/embed/9c93ljrAZAw" frameborder="0" allowfullscreen></iframe>
-</figure>
+<iframe width="560" height="180" src="https://www.youtube-nocookie.com/embed/9c93ljrAZAw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <figure class="video_container">
 	<iframe width="560" height="180" src="https://www.youtube.com/embed/lCB0ef3Y-rI" frameborder="0" allowfullscreen></iframe>
