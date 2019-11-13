@@ -73,6 +73,7 @@ For each measured time, I ran the simplebench script/binary more than 10 times a
 | Platform                       |Lua     |Python27|PyPy     |NodeJS |GCC/C++ |Mono/C#|Luajit|Godot/GD|
 |--------------------------------|--------|--------|---------|-------|--------|-------|------|--------|
 |RaspberryPi4/Cortex A72 1.6GHz  |0.61s   |4.3s    |0.14s    |0.061s |0.045s  |0.136s |0.087s|        |
+|RaspberryPi3/Cortex A53 1.4GHz  |1.191s  |10.22s  |0.34s    |0.157s |0.092s  |0.49s  |0.163s|        |
 |Laptop/Core i5 4258U 2.4GHz     |0.22s   |1.2s    |0.041s   |0.018s |0.015s  |0.045s |0.025s|0.637s  |
 |Laptop/AMD E-450 1.65GHz        |1.17s   |7.2s    |0.210s   |0.110s |0.079s  |0.233s |0.152s|        |
 |Mobile/Snapdragon 855 2.84GHz   |0.36s   |1.68s   |         |0.013s |0.020s  |       |      |0.758s  |
