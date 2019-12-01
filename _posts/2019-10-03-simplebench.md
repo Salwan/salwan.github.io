@@ -82,6 +82,7 @@ For each measured time, I ran the simplebench script/binary more than 10 times a
 |Desktop/AMD Ryzen 5 1600 3.2GHz |0.22s   |1.38s   |0.031s   |0.008s |0.011s  |       |0.011s|0.725s  |
 |Desktop/AMD Ryzen 7 3700X 3.6GHz|0.156s  |1.26s   |0.026s   |0.007s |0.008s  |0.014s |      |0.496s  |
 |ShieldTV/Cortex A57 2.01GHz     |0.745s  |4.73s   |         |0.049s |0.012s  |       |      |1.496s  |
+|Laptop/Atom x5-z8350 1.44GHz    |0.998s  |8.78s   |0.433s   |0.095s |        |       |      |        |
 |-----------------------------------------------------------------------------------------------------|
 
 ## Conclusions:
