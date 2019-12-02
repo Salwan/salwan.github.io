@@ -45,6 +45,8 @@ Rewritten to: C++, C#, Lua, Javascript, and GDScript
 Here are the systems I ran simplebench on:
 
 * Raspberry Pi 4: Cortex A72 1.5GHz, Raspbian
+* Raspberry Pi 3: Cortex A53 1.2GHz, Raspbian
+* Raspberry Pi Zero W: ARMv6 1GHz, Raspbian
 * Desktop PC: AMD Ryzen 5 1600 3.2GHz, Windows 10
 * Desktop PC: AMD Ryzen 7 3700X 3.6GHz, Windows 10
 * Laptop: Intel Core i5-4258U 2.4GHz, Kubuntu 18.04
@@ -69,21 +71,22 @@ I wanted to put minimal time into this so I didn't try to run everything on ever
 
 For each measured time, I ran the simplebench script/binary more than 10 times and took the shortest achieved time:
 
-|--------------------------------+--------+--------+---------+-------+--------+-------+------+--------|
-| Platform                       |Lua     |Python27|PyPy     |NodeJS |GCC/C++ |Mono/C#|Luajit|Godot/GD|
-|--------------------------------|--------|--------|---------|-------|--------|-------|------|--------|
-|RaspberryPi4/Cortex A72 1.6GHz  |0.61s   |4.3s    |0.14s    |0.061s |0.045s  |0.136s |0.087s|        |
-|RaspberryPi3/Cortex A53 1.4GHz  |1.191s  |10.22s  |0.34s    |0.157s |0.092s  |0.49s  |0.163s|        |
-|Laptop/Core i5 4258U 2.4GHz     |0.22s   |1.2s    |0.041s   |0.018s |0.015s  |0.045s |0.025s|0.637s  |
-|Laptop/AMD E-450 1.65GHz        |1.17s   |7.2s    |0.210s   |0.110s |0.079s  |0.233s |0.152s|        |
-|Mobile/Snapdragon 855 2.84GHz   |0.36s   |1.68s   |         |0.013s |0.020s  |       |      |0.758s  |
-|Laptop/Core i7 8550U 1.8GHz     |0.18s   |1.0s    |0.037s   |0.012s |0.011s  |0.053s |0.018s|        |
-|Laptop/Pentium 4415Y 1.6GHz     |0.46s   |3.65s   |0.094s   |0.020s |0.030s  |       |      |1.411s  |
-|Desktop/AMD Ryzen 5 1600 3.2GHz |0.22s   |1.38s   |0.031s   |0.008s |0.011s  |       |0.011s|0.725s  |
-|Desktop/AMD Ryzen 7 3700X 3.6GHz|0.156s  |1.26s   |0.026s   |0.007s |0.008s  |0.014s |      |0.496s  |
-|ShieldTV/Cortex A57 2.01GHz     |0.745s  |4.73s   |         |0.049s |0.012s  |       |      |1.496s  |
-|Laptop/Atom x5-z8350 1.44GHz    |0.998s  |8.78s   |0.433s   |0.095s |        |       |      |        |
-|-----------------------------------------------------------------------------------------------------|
+|--------------------------------+--------+--------+---------+-------+--------+-------+------+--------+--------|
+| Platform                       |Lua     |Python27|PyPy     |NodeJS |GCC/C++ |Mono/C#|Luajit|Godot/GD|RustC   |
+|--------------------------------|--------|--------|---------|-------|--------|-------|------|--------|--------|
+|RaspberryPi4/Cortex A72 1.6GHz  |0.61s   |4.3s    |0.14s    |0.061s |0.045s  |0.136s |0.087s|        |        |
+|RaspberryPi3/Cortex A53 1.4GHz  |1.191s  |10.22s  |0.34s    |0.157s |0.092s  |0.49s  |0.163s|        |        |
+|RaspberryPiZero/ARMv6 1GHz      |        |        |         |       |        |       |      |        |        |
+|Laptop/Core i5 4258U 2.4GHz     |0.22s   |1.2s    |0.041s   |0.018s |0.015s  |0.045s |0.025s|0.637s  |        |
+|Laptop/AMD E-450 1.65GHz        |1.17s   |7.2s    |0.210s   |0.110s |0.079s  |0.233s |0.152s|        |        |
+|Mobile/Snapdragon 855 2.84GHz   |0.36s   |1.68s   |         |0.013s |0.020s  |       |      |0.758s  |        |
+|Laptop/Core i7 8550U 1.8GHz     |0.18s   |1.0s    |0.037s   |0.012s |0.011s  |0.053s |0.018s|        |0.004s  |
+|Laptop/Pentium 4415Y 1.6GHz     |0.46s   |3.65s   |0.094s   |0.020s |0.030s  |       |      |1.411s  |        |
+|Desktop/AMD Ryzen 5 1600 3.2GHz |0.22s   |1.38s   |0.031s   |0.008s |0.011s  |       |0.011s|0.725s  |        |
+|Desktop/AMD Ryzen 7 3700X 3.6GHz|0.156s  |1.26s   |0.026s   |0.007s |0.008s  |0.014s |      |0.496s  |        |
+|ShieldTV/Cortex A57 2.01GHz     |0.745s  |4.73s   |         |0.049s |0.012s  |       |      |1.496s  |        |
+|Laptop/Atom x5-z8350 1.44GHz    |0.998s  |8.78s   |0.433s   |0.095s |        |       |      |        |        |
+|--------------------------------------------------------------------------------------------------------------|
 
 ## Conclusions:
 
