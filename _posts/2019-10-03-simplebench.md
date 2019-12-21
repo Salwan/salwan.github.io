@@ -49,6 +49,7 @@ Here are the systems I ran simplebench on:
 * Raspberry Pi Zero W: ARMv6 1GHz, Raspbian
 * Desktop PC: AMD Ryzen 5 1600 3.2GHz, Windows 10
 * Desktop PC: AMD Ryzen 7 3700X 3.6GHz, Windows 10
+* Mini PC: Intel Pentium 4415U 2.3GHz, Kubuntu 18.04
 * Laptop: Intel Core i5-4258U 2.4GHz, Kubuntu 18.04
 * Laptop: Intel Core i7-8550U 1.8GHz, Kubuntu 18.04
 * Laptop: Intel Pentium 4415Y 1.6GHz, Windows 10
@@ -86,6 +87,7 @@ For each measured time, I ran the simplebench script/binary more than 10 times a
 |Desktop/AMD Ryzen 7 3700X 3.6GHz|0.156s  |1.26s   |0.026s   |0.007s |0.008s  |0.014s |      |0.496s  |        |
 |ShieldTV/Cortex A57 2.01GHz     |0.745s  |4.73s   |         |0.049s |0.012s  |       |      |1.496s  |        |
 |Laptop/Atom x5-z8350 1.44GHz    |0.998s  |8.78s   |0.433s   |0.095s |        |       |      |        |        |
+|Mini/Intel Pentium 4415U 2.3GHz |0.269s  |1.52s   |0.043s   |0.014s |0.014s  |0.063s |0.016s|        |0.007s  |
 |--------------------------------------------------------------------------------------------------------------|
 
 ## Conclusions:
