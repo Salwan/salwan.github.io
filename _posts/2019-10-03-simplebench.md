@@ -85,7 +85,7 @@ For each measured time, I ran the simplebench script/binary more than 10 times a
 |Laptop/Pentium 4415Y 1.6GHz     |0.46s   |3.65s   |0.094s   |0.020s |0.030s  |       |      |1.411s  |        |
 |Desktop/AMD Ryzen 5 1600 3.2GHz |0.22s   |1.38s   |0.031s   |0.008s |0.011s  |       |0.011s|0.725s  |        |
 |Desktop/AMD Ryzen 7 3700X 3.6GHz|0.156s  |1.26s   |0.026s   |0.007s |0.008s  |0.014s |      |0.496s  |        |
-|ShieldTV/Cortex A57 2.01GHz     |0.745s  |4.73s   |         |0.049s |0.012s  |       |      |1.496s  |        |
+|ShieldTV/Cortex A57 2.01GHz     |0.745s  |4.73s   |         |0.049s |0.012s  |       |0.056s|1.496s  |0.012s  |
 |Laptop/Atom x5-z8350 1.44GHz    |0.998s  |8.78s   |0.433s   |0.095s |        |       |      |        |        |
 |Mini/Intel Pentium 4415U 2.3GHz |0.269s  |1.52s   |0.043s   |0.014s |0.014s  |0.063s |0.016s|        |0.007s  |
 |--------------------------------------------------------------------------------------------------------------|
