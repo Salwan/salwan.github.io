@@ -12,10 +12,12 @@ published: true
 [tic80refpng]: {{site.baseurl}}assets/documents/tic-80_cheatsheet.png
 [tic80refpdf]: {{site.baseurl}}assets/documents/tic-80_cheatsheet.pdf
 
-Here's a self-contained cheatsheet I created for TIC-80:
+This a self-contained cheatsheet I created for TIC-80: 
+
+[Here's the PDF]({{site.baseurl}}assets/documents/tic-80_cheatsheet.pdf)
+
+And a hi-quality PNG:
 
 ![tic80refpng]
-
-[And here's the PDF](tic80refpdf)
 
 
