@@ -5,7 +5,7 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: ["pages.html", ".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "jkserve.sh", "jekyll.ntxt", "History.markdown", "assets/themes/the-minimum/", "assets/themes/hooligan/css-social-buttons/"]
 highlighter: rouge
 markdown: kramdown
-baseurl: http://zenithsal.com/
+baseurl: https://zenithsal.com/
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -28,7 +28,7 @@ author :
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 #production_url : http://salwan.github.io
-production_url : http://zenithsal.com
+production_url : https://zenithsal.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
