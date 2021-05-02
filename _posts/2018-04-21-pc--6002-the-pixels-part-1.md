@@ -24,7 +24,7 @@ Of course both emulators use Japanese ROMs, maybe in the future if I had access 
 
 ## Assembly programming
 
-All PC-60 models use a Z80 processor. I found a nice tutorial online that goes through setting up and using ZASM (z80 assembler) to compile PC-6001 programs then injecting them into PC-6001 at runtime using the PC6001VW3's debugger: [http://www.geocities.jp/tiny_yarou/asmdev/asmdev.html](http://www.geocities.jp/tiny_yarou/asmdev/asmdev.html) (japanese)
+All PC-60 models use a Z80 processor. I found a nice tutorial online that goes through setting up and using ZASM (z80 assembler) to compile PC-6001 programs then injecting them into PC-6001 at runtime using the PC6001VW3's debugger: [http://www.geocities.jp/tiny_yarou/asmdev/asmdev.html](http://web.archive.org/web/20180620180805/http://www.geocities.jp/tiny_yarou/asmdev/asmdev.html) (japanese)
 
 This is the easiest development path for deployment, it also produces the fastest & smallest code. For actual programming though, assembly may not be for everyone.
 
@@ -58,14 +58,14 @@ The coordinates and size of sprites are limited by a single rule: all X values m
 
 The BASIC code in the sample is self-explaintory, it sets up addresses, writes the z80 procedure to RAM using POKE, draws the sprite sheet, and then execute the procedure continuously.
 
-Disassembling (and reverse engineering) the z80 procedure, I was able to learn a lot: 
+Disassembling (and reverse engineering) the z80 procedure, I was able to learn a lot:
 
 {% highlight nasm %}
 ; PC-6001 MkII (64K) Mode 5 Page 4
 ; Blit function: from spritebuffer page to frontbuffer
 ORG 0D000H;
 
-; Symbol def 
+; Symbol def
 SPRBUF EQU 4000H
 SCRBUF EQU 8000H
 
@@ -92,7 +92,7 @@ SETUP:
 	LD B, 02H		; SX = 2
 	PUSH HL
 	PUSH DE
-	
+
 HORCPY:
 	LD A, (HL)
 	LD (DE), A
@@ -120,7 +120,7 @@ HORCPY:
 	OUT 0F0H, A
 	EI
 	RET
-	
+
 MOVETOY:
 	ADD HL, HL
 	ADD HL, HL
@@ -132,7 +132,7 @@ MOVETOY:
 	ADD HL, BC
 	ADD HL, DE
 	RET
-	
+
 END
 {% endhighlight %}
 
@@ -153,7 +153,7 @@ Every block of 8 pixels are represented by 2 bytes. The first is in the specifie
 
 So the reason why X is limited to multiples of 8 is simply because thats how pixels are layed out in memory, if you want to change a single pixel/color from assembly you'd have to do some bit wrangling.
 
-The way they managed to encode 8 pixels (16 color each) in 2 bytes is by cheating! Mode 3 is actually 160x200 where every pixel is doubled horizontally. 
+The way they managed to encode 8 pixels (16 color each) in 2 bytes is by cheating! Mode 3 is actually 160x200 where every pixel is doubled horizontally.
 As a result this is how text looks like in mode 3:
 
 ![mode3_text_gif]
@@ -184,7 +184,7 @@ ORG 0D080H;
 ; Pattern value		D098
 ; Attrib value		D09C
 
-; Symbol def 
+; Symbol def
 SCRBUF EQU 8000H
 
 START:
@@ -201,7 +201,7 @@ START:
 SETUP:
 	LD B, 02H		; SX = 2
 	PUSH HL
-	
+
 HORCPY:
 	LD (HL), 0FFH	; Write pattern value
 	SET 5, H
@@ -220,7 +220,7 @@ HORCPY:
 	OUT 0F0H, A
 	EI
 	RET
-	
+
 MOVETOY:
 	ADD HL, HL
 	ADD HL, HL
@@ -232,7 +232,7 @@ MOVETOY:
 	ADD HL, BC
 	ADD HL, DE
 	RET
-	
+
 END
 
 {% endhighlight %}
@@ -242,4 +242,3 @@ I created a minimal test for the two procedures:
 ![blitz_demo_gif]
 
 For the next part, I'm going to write a tool to help import PNGs into N66 BASIC then code a movement function that does the blitting and clearing automatically.
-

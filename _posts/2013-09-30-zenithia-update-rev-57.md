@@ -7,7 +7,7 @@ tags: [zenithia, cpp, direct3d]
 ---
 {% include JB/setup %}
 
-Today I worked on the mesh parsing section of Zenithia and got a basic scene-graph up and running that supports multiple nodes, meshes, subsets, and basic materials. The screenshot below is from a collada model exported from blender that includes multiple nodes, meshes, subsets, and textures. 
+Today I worked on the mesh parsing section of Zenithia and got a basic scene-graph up and running that supports multiple nodes, meshes, subsets, and basic materials. The screenshot below is from a collada model exported from blender that includes multiple nodes, meshes, subsets, and textures.
 
 The model is rendered using a simple fx effect and all resources are loaded in the resource thread and swapped to the scene at runtime by the resource system.
 

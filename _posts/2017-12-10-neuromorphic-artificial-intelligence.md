@@ -14,7 +14,7 @@ First off, this is not about robots or androids or skynet. This is about artific
 While exploring this stuff, you might want to listen to the Machine from [Person of Interest](http://www.imdb.com/title/tt1839578/) which is perfectly appropriate:
 
 <figure class="video_container">
-	<iframe width="560" height="180" src="https://www.youtube.com/embed/wBMfUzxp4n4" frameborder="0" allowfullscreen></iframe>
+	<iframe width="560" height="180" src="https://www.youtube.com/embed/7-4pmNnjj6k" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 
@@ -117,28 +117,19 @@ And others
 
 [Singularity University](https://su.org/) aims to prepare academics and researchers around the world for exponential growth technologies like Artificial Intelligence. ([Ray Kurzweil](https://en.wikipedia.org/wiki/Ray_Kurzweil), Google)
 
-AGI religion already exists although still very low-profile: [Way of the Future](http://www.wayofthefuture.church/)
+AGI religion already exists although still very low-profile: Way of the Future (Sadly no longer online!)
 
-### Media
+### Netflix
 
 + [Person of Interest](https://www.netflix.com/title/70197042)
-
-*WARNING: Video contains **spoilers**!*
-
-<figure class="video_container">
-	<iframe width="720" height="405" src="https://www.youtube.com/embed/8yT2oXEpGmg" frameborder="0" allowfullscreen></iframe>
-</figure>
-
 + [Transcendence](https://www.netflix.com/title/70266675)
-
-
 + [Her](https://www.netflix.com/title/70278933)
 
 ## Perspective
 
 This is our future. There is a 50% probability that by year 2045 we will create an intelligence that will change humanity forever in ways we can't even imagine now.
 
-Change could either be uplifting us or ending our civilization. We cannot stop it, we can only prepare to do it right by making sure the first AGI is what scientists and researchers call "friendly AI".
+Change could either be uplifting us thousands of years forward or ending our civilization abruptly. We cannot stop it, we can only prepare to do it right by making sure the first AGI is what scientists and researchers call "friendly AI".
 
 Videos related to the topic:
 
