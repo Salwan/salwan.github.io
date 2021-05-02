@@ -15,7 +15,7 @@ Mystic is a new personal demo game project I'm working on, it's supposed to be a
 
 ![mystic]({{site.baseurl}}assets/photos/tumblr/mystic-1.jpg)
 
-p.s. Mystic is the project code name, the actual name of the game is going to be different. 
+p.s. Mystic is the project code name, the actual name of the game is going to be different.
 
 The highlight features of Mystic are going to be:
 

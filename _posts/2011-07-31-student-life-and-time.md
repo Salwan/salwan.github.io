@@ -21,11 +21,11 @@ In fact, I could trick myself into believing that much easier than trying to acc
 
 But I know it's a fact...... maybe?
 
-This is like a defacto struggle that all tough majored students must face and conquer, here's how it looked like from noticing my friends who graduated before me:
+This is like a defacto struggle that all tough-majored students must face and conquer, here's how it looked like from noticing my friends who graduated before me:
 
-> Clenching to the student life, trying to keep everything as it was, seeking continuity and not liking to go into the nknown world of "your time is actually yours now kiddo!"
+> Clenching to the student life, trying to keep everything as it was, seeking continuity and not liking to go into the unknown world of "your time is actually yours now kiddo!"
 > Things go out of control, in a chaotic way, sleeping, eating, life in general (I think that is where I am)
-> Somehow surviving all that without a terminal disease, and then just accepting the new state, but not before a long tiring attle with looking-for-a-job and creating-a-new-lifestyle.
+> Somehow surviving all that without a terminal disease, and then just accepting the new state, but not before a long tiring battle with looking-for-a-job and creating-a-new-lifestyle.
 
 I wish I can afford the time it takes to battle with that and accept it, but since I'm trying to finish my first commercial game which I put a lot of work into already and the hard part is over... I can't afford to abandon it until my life gets back into order.
 

@@ -47,13 +47,13 @@ So from now on, everytime I hit that "*I can't do it*" point, I know it's time t
 
 This is a wonderful thing, it's like a complete record of every moment the project went through.. creating features, squashing bug, and sometimes even frustration all show in the video.. and of course the moment of triumph when the game is finished and released :)
 
-When the timelapse software is working in the background, it feels a bit like someone is watching what I do closely, that someone is me later on.. so procrastination and wasting time with useless things are much less to occur if I know my future-self is watching.
+When the timelapse software is working in the background, it feels a bit like someone is watching what I do closely, that someone is me later on.. so procrastination and wasting time with useless things are much less likely to occur if I know my future-self is watching.
 
 It also shows how much I get distracted at work with things I should just shut off, like news or facebook or something, going to check facebook even for half a minute means my line-of-thought will be lost, whatever I was coding I'm going to have to find what I was trying to do with it and most likely I'll end up writing buggy code and *facepalm* myself later.
 
 ## What Went Wrong
 
-### 1. The game concept was two much for my first 48 hours contest
+### 1. The game concept was too much for my first 48 hours contest
 
 Most other entries included a simple design and simple mechanics following a known genre, pattern based enemies (if there are enemies), and mostly simplistic environments. There are exceptions though, there are those who did much more than that, but they are usually quiet experienced with game contests like this one and know exactly what to concentrate on.
 
@@ -61,11 +61,11 @@ Most other entries included a simple design and simple mechanics following a kno
 
 IRC channel #ludumdare, Notch livestreaming himself working on his entry, and LD blog entries that I read/write, all served as distractions. And you can see pretty clearly in the timelapse how many times I got distracted with those... more than I thought.
 
-### 3. Uncomplete experience with Flash
+### 3. Incomplete experience with Flash
 
-Flash has a weird way to dealing with things that sometimes doesn't make sense. Before Prison Escapor, the only game I finished in flash was pong which is hardly a game and it was many years ago. I had confidence in my knowledge in Flash and my framework to not face tricky situations.
+Flash has a weird way of dealing with things that sometimes doesn't make sense. Before Prison Escapor, the only game I finished in flash was pong which is hardly a game and it was many years ago. I had confidence in my knowledge in Flash and my framework to not face tricky situations.
 
-But I did, many in fact, the two most that took most of the time during the second and third day:
+But I did, many in fact, the two that took most of the time during the second and third day:
 
 * Building multiple levels in Flash editor (I haven't done that yet in First Defense)
 * The strange relationship between child and parent movieclips as opposed to construction and events, this is a very basic thing and I'm actually shocked I didn't have problems in the past due to this misunderstanding.

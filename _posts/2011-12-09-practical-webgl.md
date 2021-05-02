@@ -27,10 +27,11 @@ So let's imagine writing an HTML5/WebGL game that instantly runs on any WebGL su
 
 few WebGL demos: (supported browsers: Chrome 9+, Firefox 4+, Safari 5.1+, Opera 12+)
 
-* [Interactive music demo](http://inear.se/beanstalk/)
-* [Emberwind, a platformer game](http://operasoftware.github.io/Emberwind/)
 * ['The head' skin rendering demo (or WebGL shaders flexing some muscles)](https://alteredqualia.com/three/examples/webgl_materials_skin.html)
 * [Physical simulation running on WebGL fragment shaders](https://www.cake23.de/traveling-wavefronts-lit-up.html)
+* [Alteredqualia has an amazing collection of WebGL demos](https://alteredqualia.com)
+* **DEAD** [Interactive music demo](http://inear.se/beanstalk/)
+* **DEAD** [Emberwind, a platformer game](http://operasoftware.github.io/Emberwind/)
 
 There are already a bunch of JS engines/frameworks for WebGL out there:
 

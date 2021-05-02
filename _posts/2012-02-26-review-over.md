@@ -27,7 +27,7 @@ Well, it has been a very productive month, I successfully reviewed most of the r
 * Windows API
 * Direct3D9
 
-On the code front, I did some work on Zamron based on the beta feedback I got via FGL but I’m going too slow.. I’ll probably give it a little more focus this month, and I’ve also been writing a Windows API/Direct3D9 framework that I’ll be using and developing iteratively for my demos, today I’m implementing the Mesh class (D3DXMESH is mostly obsolete, completely removed in D3D11), handling window resizing and device lost state, and writing a Camera class.
+On the code front, I did some work on Zamron based on the beta feedback I got via FGL (Flash Game License, a dead website for selling Flash games to publishers) but I’m going too slow.. I’ll probably give it a little more focus this month, and I’ve also been writing a Windows API/Direct3D9 framework that I’ll be using and developing iteratively for my demos, today I’m implementing the Mesh class (D3DXMESH is mostly obsolete, completely removed in D3D11), handling window resizing and device lost state, and writing a Camera class.
 
 There will probably be a light weight scene graph in my near future along with a mandatory resource manager to sort out the mess, but I’ll only write those when I have practical use cases for them.
 

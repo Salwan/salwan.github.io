@@ -25,7 +25,7 @@ beachcoding like a BOSS XD
 
 But wait, there are many not so great facts about staying in Egypt as an indie, besides the fact it's unstable economically and politically these days.. the whole environment is hostile to indies: absolutely no community and no support, no access to online services like kickstarter or paypal (paypal just blocks my account and freezes what's in it once I access it from Egypt), and because of my iraqi passport I can't even leave Egypt to anywhere unless I have a "serious" visa (like the filthy rich man visa).. so I can't travel to indie festivals/conferences/jams/gatherings even if I want to and can afford to, though truth be told I haven't tried anything like that yet so I'm not sure of its impossibility.
 
-So now I'm ruling out indie game development as a full time courier at this stage, my best option is to get back to my roots of native development, good old C++.. review what I know, tie the loose ends, and learn as much new stuff as possible, and then apply for a job in the industry when I'm comfortable enough. I'm no noob in C++ or low level graphics, my collective experience worths nearly 4 years distributed between studying realtime graphics via Direct3D, doing contract visualizations for education institutes, working on a few personal and community projects, writing a few articles, and eventually working for a few months on an XBOX360 title.
+So now I'm ruling out indie game development as a full time career at this stage, my best option is to get back to my roots of native development, good old C++.. review what I know, tie the loose ends, and learn as much new stuff as possible, and then apply for a job in the industry when I'm comfortable enough. I'm no noob in C++ or low level graphics, my collective experience is worth nearly 4 years distributed between studying realtime graphics via Direct3D, doing contract visualizations for education institutes, working on a few personal and community projects, writing a few articles, and eventually working for a few months on an XBOX360 title.
 
 ![Collision Prevention at Sea]({{site.baseurl}}assets/photos/tumblr/collision-prevention-1.jpg)
 
@@ -35,7 +35,7 @@ So now I'm ruling out indie game development as a full time courier at this stag
 
 [Virtual Learning Lab Server, a virtual language teaching lab - contract 2006 - C/C++, Win32 API, and DirectPlay8 for networking]
 
- 
+
 ![Zamron in-game screenshot]({{site.baseurl}}assets/photos/tumblr/reflection.jpg)
 
 [Stencil reflection, a very old sample (2004!!!) - C/C++ and Direct3D9b :D]

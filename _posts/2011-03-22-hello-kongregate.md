@@ -23,6 +23,6 @@ Today, I got two highlights about ActionScript 3:
 
 I'll finish this post with a link to a small and useful ActionScript3 library, its task is to implement and run finite state machines, here:
 
-[https://github.com/cassiozen/AS3-State-Machine]()
+[https://github.com/cassiozen/AS3-State-Machine](https://github.com/cassiozen/AS3-State-Machine)
 
 Happy Coding!

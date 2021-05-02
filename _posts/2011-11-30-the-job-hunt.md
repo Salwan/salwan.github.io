@@ -11,7 +11,7 @@ published: true
 
 **This post is migrated here from my 2011 blog**
 
-It has been an exhausting few weeks looking for a job in game development, at one point I was talking to 4 interested employers at the same time, I could barely keep up, and I’m still talking and getting evaluated, no solid job offers yet though and only one of these companies apologized (apparently they gave the position I was being evaluated for to someone else, or maybe it was just because going there  might take 2 months of embassy paperwork hehe) the rest are keeping me around for some reason.
+It has been an exhausting few weeks looking for a job in game development, at one point I was talking to 4 interested employers at the same time, I could barely keep up, and I’m still talking and getting evaluated, no solid job offers yet though and only one of these companies apologized (apparently they gave the position I was being evaluated for to someone else, or maybe it was just because going there might take 2 months of embassy paperwork hehe) the rest are keeping me around for some reason.
 
 The job opportunities I pursued vary widely, each has different requirements and responsibilities, and when I started looking I had no idea what to expect, I never hunted for a job like this and in fact I wanted to drown myself completely in it to learn how this works.
 

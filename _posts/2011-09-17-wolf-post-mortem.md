@@ -13,23 +13,23 @@ published: true
 
 Well I said I will stick to simple ideas, then completely went over that by trying to make a retro fps shotter with support for multiplayer in 72 hours max hehe
 
-[Read the experiment details here]({{site.baseurl}}pages/2011/09/09/exp-rapid-indie-gamedev/), for reference.
+[Read the experiment details here]({{site.baseurl}}gamedev/2011/09/09/exp-rapid-indie-gamedev), for reference.
 
-This is my first try, I called the whole thing "Wolf"not the game but the whole project. And of course, I didn't quite make it, but I made something from scratch and by all means it's an impressive result for 3 days of normal work, it isn't a full game though, only a good base for one.
+This is my first try, I called the whole thing "Wolf" not the game but the whole project. And of course, I didn't quite make it, but I made something from scratch and by all means it's an impressive result for 3 days of normal work, it isn't a full game though, only a good base for one.
 
 Take a look, a pixelated on purpose game :)
 
 ![Wolf Prototype]({{site.baseurl}}assets/photos/tumblr/wolf-1.jpg)
 
-Here, try the demo << [WOLF DEMO](http://www.cloudmillgames.com/demos/wolf/wolf.html) >> controls: arrow keys, A/D for strafing, Ctrl for firing, and 1/2 to switch weapon (punching or a pistol you can pick up).
+Here, try the demo << [WOLF DEMO](https://zenithsal.com/other/wolf/wolf.html) >> controls: arrow keys, A/D for strafing, Ctrl for firing, and 1/2 to switch weapon (punching or a pistol you can pick up).
 
-I faced quite a bit of frustrations that unfortunately were a result of introducing untried and untested Flash 3d libraries to power the game, but hey, I learned my lesson :)
+I faced a number of frustrations that unfortunately were a result of introducing untried and untested Flash 3d libraries to power the game, but hey, I learned my lesson :)
 
 ## What Went Wrong
 
 ### 1. Flash 3D Libraries
 
-Flash 3D (for Flash 10) is fail, it cannot be used for 3d games period, even if it's something as simple as wolf. And it's not the 3d libraries fault, in fact these are wonderfully crafted libraries with many smart tricks to speed things up (albeit buggy).. but it's ultimately Flash 10's crappy performance and its full software implementation.
+Flash 3D (for Flash 10) is fail, it cannot be used for 3d games period, even if it's something as simple as wolf. And it's not the 3d libraries fault, in fact these are wonderfully crafted libraries with many smart tricks to speed things up (though buggy).. but it's ultimately Flash 10's crappy performance and its full software implementation.
 
 When I started evaluating libraries, I did a superficial evaluation and picked Sandy3D because it looked like the simplest of them, all I needed was something that can draw simple textured polygons and textured billboards. That's it!
 

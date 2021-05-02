@@ -15,11 +15,11 @@ Exactly 1 year and 13 days since my last post here, here's an extremely brief ov
 
 * Left Small World Interactive and Egypt
 * Moved to Istanbul, Turkey and joined PeakGames (Flash/Actionscript3)
-    Made a lot of great friends
-    Crazy work hours (from 9am to 7pm) didn't leave me much for anything, but the weekends of 2 days were awesome! I spent them all away from computers exploring nature and Turkey, I saw and did things I only experienced in my dreams :-)
-    Met an amazing girlfriend, spent a few incredible months together.
-    Girlfriend went home
-    Left PeakGames
+* Made a lot of great friends
+* Crazy work hours (from 9am to 7pm) didn't leave me much for anything, but the weekends of 2 days were awesome! I spent them all away from computers exploring nature and Turkey, I saw and did things I only experienced in my dreams :-)
+* Met an amazing girlfriend, spent a few incredible months together.
+* Girlfriend went home
+* Left PeakGames
 
 ![Good days]({{site.baseurl}}assets/photos/tumblr/been-a-while.jpg "Miss you all <3")
 

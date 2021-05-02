@@ -27,10 +27,10 @@ Oh yes, about Wolf... so I ran around and showed what I have to different kinds 
 
 Now there is a decision to be made, but first the purpose behind Wolf was to hit multiple targets at once with one ray:
 
-    Work on Flash 3D libraries to figure out what they are all about, are they useful for serious projects?
-    Create a complex game iteratively depending on emerging design, there is no classic design document or any kind of presuppositions about what it should be neither mechanically nor artistically, basically I'm just making up things as I go
-    Develop the skill of finishing games quickly, learning to sacrifice the right things in exchange for shorter development time, with the main objective being fun gameplay
-    Trolling teh internet, which is what I'm doing right now ;)
+* Work on Flash 3D libraries to figure out what they are all about, are they useful for serious projects?
+* Create a complex game iteratively depending on emerging design, there is no classic design document or any kind of presuppositions about what it should be neither mechanically nor artistically, basically I'm just making up things as I go
+* Develop the skill of finishing games quickly, learning to sacrifice the right things in exchange for shorter development time, with the main objective being fun gameplay
+* Trolling teh internet, which is what I'm doing right now ;)
 
 Obviously, Wolf isn't even a game yet.
 

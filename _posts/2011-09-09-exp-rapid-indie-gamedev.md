@@ -24,7 +24,7 @@ About why I haven't worked on First Defense recently, I frankly was shocked afte
 I know why First Defense took all this time (and it still has one level that isn't even that fun!).. I pushed quality too far. And even with a bit of help from my friend the talented Islam Wazery (Menopia), the quality is still too much for a first commercial first Flash game (second Flash game now after Escapor :D), so now I find myself a bit stuck. and I have a hard decision to make:
 
 * Toughen up: I could toughen up and carry on with First Defense until it's finished, this could take anywhere between 2 months and 4, I don't know anymore.
-* Lower quality: I could drop the quality level, even though the design depends on it, and that will make First Defense of even less value as a game than it is now, but at least I can finish it much faster, perhaps in a month. 
+* Lower quality: I could drop the quality level, even though the design depends on it, and that will make First Defense of even less value as a game than it is now, but at least I can finish it much faster, perhaps in a month.
 * Cut My Losses: Only create a demo of a few missions, the first 4 most likely including 1 boss fight, using current quality, and release it on Kongregate as a free demo. If people liked it and demanded more, we could return to First Defense later to make more stuff.
 
 I'm leaning towards the last one, seeing that it's the only way I could leverage the code and art we made so far and at the same time, I could move earlier into projects that sound, look, and play more indie. Menopia if you are reading this now, I'd like to hear what you think.
@@ -56,7 +56,7 @@ I'll say what I think is possible rewards out of this to encourage myself in the
 
 * Making and finishing *normal* games becomes child's play, allows me to move to something even more ambitious
 * Designing games is a skill that is very hard to learn, because it can't be defined solidly, it's very conceptual and non-technical. This experiment will give me very precious insights into game design, to the point I am not able to foresee the directions it can develop towards at the moment.
-* Best of all, I'm very confident that if I keep it up for 2+ months, I'll be able to generate a very good monthly income that can only get fatter :D think $6000/month or something within 6 months, indeed I've seen indie game developers do even better than that, most famous is Notch and his master-peace of game design Minecraft.. a single game that made him $20,000,000 in less than a year, and it's still in beta!
+* Best of all, I'm very confident that if I keep it up for 2+ months, I'll be able to generate a very good monthly income that can only get fatter :D think $6000/month or something within 6 months, indeed I've seen indie game developers do even better than that, most famous is Notch and his masterpiece of game design Minecraft.. a single game that made him $20,000,000 in less than a year, and it's still in beta!
 
 Only imagination is the limit, and imagination embraces the entire world, so Einstein would say :)
 

@@ -13,7 +13,7 @@ published: true
 
 ![gegypt]({{site.baseurl}}assets/photos/tumblr/gegypt.png)
 
-So I woke up today at 6:00am, left the house and went to [Google's g|egypt 2.0](https://sites.google.com/site/gegypt2011/) Developers event, and here I am home again, only 16 hours of googley awesomeness later :D
+So I woke up today at 6:00am, left the house and went to [Google's gegypt 2.0](https://sites.google.com/site/gegypt2011/) Developers event, and here I am home again, only 16 hours of googley awesomeness later :D
 
 On entering you see this, it was a little lonely, but stylish
 

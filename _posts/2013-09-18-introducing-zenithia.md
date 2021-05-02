@@ -8,15 +8,18 @@ tags: [zenithia, cpp, direct3d]
 {% include JB/setup %}
 
 ### What is Zenithia?
+
 Zenithia is a Direct3D 9/11 framework that I'm currently developing using C/C++. The scope of the framework is unknown at the moment as I'm developing it specifically to develop and demonstrate my C/C++ and graphics programming abilities.
 
 ### Where is it?
-[Here, in BitBucket/Mercurial.](https://bitbucket.org/Salwan/zenithia)
+
+[Here in BitBucket](https://bitbucket.org/Salwan/zenithia-git/src/master/)
 
 ### Design philosophy
-Zenithia's main objective is to simplify and structure Direct3D API functionality providing a higher polished and practical interface for demos and games. 
 
-Overtime I'm planning to write more complex systems in Zenithia like: scene graph, physics, and scripting.
+Zenithia's main objective is to simplify and structure Direct3D API functionality providing a higher polished and practical interface for demos and games.
+
+Overtime I'm planning to write more complex systems in Zenithia like: scenegraph, physics, and scripting.
 
 The basic principles I'm following are:
 
@@ -38,17 +41,18 @@ The basic principles I'm following are:
 - Input system
 - Collada parsing support
 - Character animation system
-- Scene graph
+- Scenegraph
 - Google V8 scripting
 - Bullet physics integration
-- Resource system
+- Multi-threaded resource system
 - DirectCompute system
 - Audio system
 
 ### Demonstration
+
 The following code creates a vertex/index buffer, sets and checks input, creates an effect, then renders all:
 
-{% highlight c++ %}
+~~~~ cpp
 #include <Zenithia.h>
 
 ZManualMesh mesh;
@@ -103,7 +107,7 @@ effect("texDiffuse") = diffuse_texture;
 effect.beginTechnique();
 while(effect.nextPass()) {
     // draws for each pass in technique
-    mesh.drawSubset(d3ddevice, 0); 
+    mesh.drawSubset(d3ddevice, 0);
 }
 effect.endTechnique();
-{% endhighlight %}
+~~~~

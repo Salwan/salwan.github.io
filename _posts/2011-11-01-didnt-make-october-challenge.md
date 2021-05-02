@@ -17,7 +17,7 @@ Alas, I couldn’t finish Zamron in time and not even close (today is the last s
 
 My development/time plans were sound but the reason why I couldn’t finish it is probably because I didn’t do much work during the last 2 weeks or so, it has been a crazy month… I was assuming that my engineering degree will take = (rand() % 10) + 2 months giving me enough time to finish Zamron, First Defense, and Escapor.. however, I got it right in the middle of last month! and everything changed :’(
 
-My job hunt began which takes a lot more time than expected! and I’ve been trying to demystify some new technologies used in games now that didn’t exist last time I worked on an AAA game, crash course in compute shaders? :D
+My job hunt began which takes a lot more time than expected! and I’ve been trying to demystify some new technologies used in games now that didn’t exist last time I worked on a AAA game, crash course in compute shaders? :D
 
 I’m also trying to cure my assembly addiction by writing assembly shaders rather than the usual falling back to emulated Z80 on an 80s computer but why am I even mentioning this? it’s incredibly irrelevant hehe
 
