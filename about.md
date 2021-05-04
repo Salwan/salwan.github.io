@@ -29,7 +29,7 @@ group: navigation
 
 #### Motorcycle of choice:
 
-[Suzuki SV650](https://www.youtube.com/watch?v=ihTJIvyOXzI) 2019
+[Suzuki SV650](https://www.youtube.com/watch?v=IoibhsER2X4) 2019 ABS Fullpower
 
 ![sv650]
 
