@@ -8,7 +8,7 @@ group: navigation
 
 [pc6001_mk2]: {{site.baseurl}}assets\photos\pc6002\nec_pc6001mk2sr_1.jpg "First Computer"
 [atari2600]: {{site.baseurl}}assets/about/atari2600jr.png "First Console"
-[sv650]: {{site.baseurl}}assets/about/sv650.jog "My Girlfriend"
+[sv650]: {{site.baseurl}}assets/about/sv650.jpg "My Girlfriend"
 [godot]: {{site.baseurl}}assets/about/godot.gif "Godot Intensifies"
 [fedora]: {{site.baseurl}}assets/about/fedora.png "Fedora Silverblue"
 [cherry_coke_zero]: {{site.baseurl}}assets/about/cherry_coke_zero.gif "They Discontinued My Life"
