@@ -1,7 +1,13 @@
 ---
 layout: post
 title: Log 1: Dawn of a new age
+description: Some of what I'm working on these last few weeks.
 date: 2022-04-11 13:10 +1200
+category: gamedev
+tags:
+- gamedev
+- indie
+published: true
 ---
 
 {% include JB/setup %}
