@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Immutable Operating Systems
-date: 2022-09-21 12:20 +1200
+date: 2022-09-20 11:59 +1200
 category: linux
 tags:
 - linux
