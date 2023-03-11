@@ -69,15 +69,15 @@ Other than that, when it works it feels great! instant startup and smooth.
 
 Here's the spotlight example showing how expensive this is on the GPU even if it was running at 800x450 only:
 
-![vid_spotlights]
+![](vid_spotlights)
 
 Here's the maze example working correctly:
 
-![vid_maze]
+![](vid_maze)
 
 And here's the cubes example to show how terrible the performance could get, however this demo in particular could be running into a feature reported by the driver to be available but it's actually running in software but I don't know that for certain:
 
-![vid_cubes]
+![](vid_cubes)
 
 Yeah, you could probably make simple graphical demos but this is not what I'd expect from a 24GFLOPs GPU and I blame the vc4 driver.
 
