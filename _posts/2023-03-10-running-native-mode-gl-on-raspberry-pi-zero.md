@@ -71,13 +71,24 @@ Here's the spotlight example showing how expensive this is on the GPU even if it
 
 ![](vid_spotlights)
 
+<video width="720" height="480" controls>
+  <source src="vid_spotlight" type="video/webm">
+Your browser does not support the video tag.
+</video>
+
 Here's the maze example working correctly:
 
-![](vid_maze)
+<video width="720" height="480" controls>
+  <source src="vid_maze" type="video/webm">
+Your browser does not support the video tag.
+</video>
 
 And here's the cubes example to show how terrible the performance could get, however this demo in particular could be running into a feature reported by the driver to be available but it's actually running in software but I don't know that for certain:
 
-![](vid_cubes)
+<video width="720" height="480" controls>
+  <source src="vid_cubes" type="video/webm">
+Your browser does not support the video tag.
+</video>
 
 Yeah, you could probably make simple graphical demos but this is not what I'd expect from a 24GFLOPs GPU and I blame the vc4 driver.
 
