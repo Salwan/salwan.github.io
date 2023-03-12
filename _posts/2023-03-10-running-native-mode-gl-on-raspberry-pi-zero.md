@@ -7,10 +7,6 @@ tags: [linux,opengl,raspberrypi]
 ---
 {% include JB/setup %}
 
-[vid_spotlight]: {{site.baseurl}}assets/videos/rpiz_native/VID_20230310_104833.webm
-[vid_cubes]: {{site.baseurl}}assets/videos/rpiz_native/VID_20230310_104942.webm
-[vid_maze]: {{site.baseurl}}assets/videos/rpiz_native/VID_20230310_105124.webm
-
 I've always found the RPiZ interesting due to it being so limited and slow (lol) kind of why I like Amiga A500 or Atari ST.
 
 My vision for the RPiZ was to use it like it's a low level development gaming platform with a respectable GPU compared to older GPUs before DirectX9. The problem is that modern day linux (Raspbian included) is way too much for this little chip that it makes it almost impossible to use for GUI-based development and the super-outdated and bloated X11 tasks the hardware too much that any OpenGL performance is completely unpredictable and choppy.
@@ -69,24 +65,22 @@ Other than that, when it works it feels great! instant startup and smooth.
 
 Here's the spotlight example showing how expensive this is on the GPU even if it was running at 800x450 only:
 
-![](vid_spotlights)
-
 <video width="720" height="480" controls>
-  <source src="vid_spotlight" type="video/webm">
+  <source src="{{site.baseurl}}assets/videos/rpiz_native/VID_20230310_104833.webm" type="video/webm">
 Your browser does not support the video tag.
 </video>
 
 Here's the maze example working correctly:
 
 <video width="720" height="480" controls>
-  <source src="vid_maze" type="video/webm">
+  <source src="{{site.baseurl}}assets/videos/rpiz_native/VID_20230310_105124.webm" type="video/webm">
 Your browser does not support the video tag.
 </video>
 
 And here's the cubes example to show how terrible the performance could get, however this demo in particular could be running into a feature reported by the driver to be available but it's actually running in software but I don't know that for certain:
 
 <video width="720" height="480" controls>
-  <source src="vid_cubes" type="video/webm">
+  <source src="{{site.baseurl}}assets/videos/rpiz_native/VID_20230310_104942.webm" type="video/webm">
 Your browser does not support the video tag.
 </video>
 
