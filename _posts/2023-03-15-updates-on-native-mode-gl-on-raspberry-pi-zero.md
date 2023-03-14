@@ -11,7 +11,7 @@ After [last post](https://zenithsal.com/raspberrypi/2023/03/10/running-native-mo
 
 First, running a different cubes drawing demo on RPiZ resulted in a solid 60 fps:
 
-<video width="852" height="480" controls>
+<video width="720" height="405" controls>
   <source src="{{site.baseurl}}assets/videos/rpiz_native/vid_cubes2.webm" type="video/webm">
 Your browser does not support the video tag.
 </video>
@@ -20,7 +20,7 @@ Also I realized the reason why the textures_bunnymark demo didn't show any bunni
 
 So now the bunnies are spawned in the center and it works perfectly:
 
-<video width="852" height="480" controls>
+<video width="720" height="405" controls>
   <source src="{{site.baseurl}}assets/videos/rpiz_native/vid_bunnies.webm" type="video/webm">
 Your browser does not support the video tag.
 </video>
