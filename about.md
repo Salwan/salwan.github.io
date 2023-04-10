@@ -86,6 +86,3 @@ Super-AI. I think we should be ruled by a super AI. [No Joke :P](https://www.the
 	<iframe width="560" height="180" src="https://www.youtube-nocookie.com/embed/lCB0ef3Y-rI" frameborder="0" allowfullscreen></iframe>
 </figure>
 
-### Around the Web
-
-[Twitter](http://twitter.com/zenithsal) | [Facebook](http://www.facebook.com/salwanmax) | [GitHub](https://github.com/Salwan) | [BitBucket](https://bitbucket.org/Salwan)
