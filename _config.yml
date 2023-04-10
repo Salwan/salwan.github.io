@@ -11,12 +11,12 @@ baseurl: https://zenithsal.com/
 # so be sure to set them if your theme uses them.
 #
 title : Zenithia
-tagline: Salwan Hilali
+tagline: Zenithia
 author :
-  name : Salwan Hilali
+  name : ZenithSal
   #email : me@zenithsal.com
-  github : Salwan
-  twitter : zenithsal
+  #github : Salwan
+  #twitter : zenithsal
   feedburner : zenithia
 
 # Solves future date problem blocking publishing
