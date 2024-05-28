@@ -10,12 +10,14 @@ tags: [internet,computing]
 Little by little the internet is dying. I felt like ranting on a private discord server which led me into a rabbit hole after. This was my rant raw:
 
 > man the internet really sucks nowadays, most forums are gone not even in archive, search engines are crippled with ads and target dumb audiences, every piece of software that's not opensource is spying on us "to enhance your experience", pretty much every social discussion network wants to be a walled garden like discord, reddit is almost there.. it seems most people have migrated from internet to social media focused on doom scrolling and pointless angry arguing. It feels like LLMs are the only good thing that happened recently.. but wait til they're enshitified as well and start to cripple themselves (to enhance experience naturally), spy on us and push ads which will happen once their growth slows down
+>
 > I think we broke the internet, so many computer people started looking for an escape.. for some they found it in pre-internet retro hardware
 > some are trying to revive the old internet by reviving personal sites and focusing on decentralized services only
 (I think I'm in both camps)
+>
 > a part of me just wants to boot all major software from all my computers and switch to FreeBSD or something and start over 😂
 
-These sentimens were all brewing in my consciousness for a while now. I'm glad I was able to just dump the whole thing in one paragraph.
+These sentiments were all brewing in my consciousness for a while now. I'm glad I was able to just dump the whole thing in one paragraph.
 
 I want to break it down here:
 
@@ -26,7 +28,7 @@ One day not long ago the internet was full of self-hosted forums. At the beginni
 * completely open to search engine indexing and every thread and reply had a unique clean URL (no tracking or fingerprinting)
 * no dynamic content loading: pages are rendered on the server and sent to clients. This lowers the cost of accessing them for both the browser and the network bandwidth, makes it easier to index the page, and allows saving the page to a local file with all relevant content
 * they did not spy on their users, "enhance" anybody's experience, nor sell private data to highest bidders like social media does today
-* they contained moderated focused collective knowledge, due to the tight scope of each forum it was easier for human moderators to enforce rules and whenever a particular section of a forum gets too unweildly they split it into smaller sections
+* they contained moderated focused collective knowledge, due to the tight scope of each forum it was easier for human moderators to enforce rules and whenever a particular section of a forum gets too unwieldily they split it into smaller sections
 * I witnessed many conflicts that started and ended on forums, there was none of the bullying and anti-social behavior common in current social media, even when most users had anonymous handles there was a sense of reputation that no longer exists now due to the sheer number of users
 
 Those forums often were self-hosted using a privately purchased domain and direct use of an opensource forum system like phpbb paired with an SQL database. The moment the domain is not renewed or server bill goes unpaid, the entire forum is gone like it never existed. And this is what happened.
@@ -53,7 +55,7 @@ Thankfully, there is already opensource solutions with comparable knowledge. If 
 
 ### Social conflict stimulators
 
-Then comes social media. It started with its heart in the right place. Connecting people and sharing interests. A long time ago when I signed up for a facebook account when it opened to everyone, some of us used it to show off our work and post screenshots of current projects. In that way it was great! Then when facebook became toxic-boomer ville and was filled with vile content left and right. I ran off to Google Plus which had this nice feature called "circles" that connected me to entire communities of like-minded people. For a while we used it to share our stuff until one day the plug was pulled and G+ joined the cemetry of Google.
+Then comes social media. It started with its heart in the right place. Connecting people and sharing interests. A long time ago when I signed up for a facebook account when it opened to everyone, some of us used it to show off our work and post screenshots of current projects. In that way it was great! Then when facebook became toxic-boomer-ville and was filled with vile content left and right. I ran off to Google Plus which had this nice feature called "circles" that connected me to entire communities of like-minded people. For a while we used it to share our stuff until one day the plug was pulled and G+ joined the cemetery of Google.
 
 I feel Google Plus was the end of the golden era of social media for me. After that everything moved away from computing and it became about angry arguing, posting personal everyday life photos and filter-ridden selfies.
 
@@ -106,5 +108,5 @@ IPFS seems to be the most straight forward way. You install the tool which lets 
 
 #### What do I want?
 
-A project that materialized as I was researching this is a trello-like decentralized service. Task boards can be private or public, and using a fediverse approach you may host your own node or join an existing node. This stims from a frustration I have with searching for a practical kanban boards solution that isn't part of a commercial platform, also allows full access from any device, and ideally doesn't require manual backing up.
+A project that materialized as I was researching this is a trello-like decentralized service. Task boards can be private or public, and using a fediverse approach you may host your own node or join an existing node. This stems from a frustration I have with searching for a practical kanban boards solution that isn't part of a commercial platform, also allows full access from any device, and ideally doesn't require manual backing up.
 
