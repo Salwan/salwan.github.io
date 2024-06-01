@@ -27,10 +27,4 @@ But here is the realization, today I discovered there is a reward! for the first
 
 I can now look at any mean professor from the old days and evil-laugh while pointing: “MUAHAHAHA *point* you tried your best but you couldn’t stop me!.. I survived!”.
 
-<figure class="video_container">
-	<iframe width="540" height="405" src="https://www.youtube.com/embed/ARt9HV9T0w8" frameborder="0" allowfullscreen></iframe>
-</figure>
-
-^ this should probably be the official students anthem
-
 Great, what a realization… only possible if you’re high on sleep deprivation

@@ -11,6 +11,6 @@ published: true
 
 **This post is migrated here from my 2011 blog**
 
-![Zamron screenshot]({{site.baseurl}}assets/photos/tumblr/zamron-1.png)
+![Zamron screenshot]({{site.baseurl}}assets/photos/tumblr/zamron-1.jpg)
 
 This is how the main menu looks like in Zamron Encounter at the moment ;)
