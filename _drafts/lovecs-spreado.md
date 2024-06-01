@@ -70,3 +70,5 @@ love.draw = () ->
 To create a bundle named `create_food` for example: `e = Bcreate_food()`
 
 This expriment [lives in branch spreado in lovecs](https://github.com/cloudmillgames/lovecs/tree/spreado)
+
+TODO: export/share template spreadsheet and link here, download link for script, port spreado moon to lua
