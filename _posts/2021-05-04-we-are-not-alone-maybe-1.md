@@ -9,6 +9,8 @@ published: true
 
 {% include JB/setup %}
 
+[last-question]: {{site.baseurl}}assets/comics/the_last_question.jpeg
+
 I've always claimed that I have proof the universe is full of intelligent life (according to our definition of intelligence), and it's simply that we ARE the perfect example of intelligent life in our universe as there is literally nothing about our existential circumstances that's special or unique and most of our planet's complex life evolved within the last 600 million years. Now look at all we know about the universe from its largest parts (galaxies?) to the smallest (quantum particles?), there is not one thing in our universe that's one of itself. Everything has billions, trillions, and beyond, of itself; even at the scale of a single galaxy.
 
 Our recent technological awakening is laughably small compared to the age of this solar system or life on this planet; or even how long homosapiens have been around. Electricty was discovered in the 1800 as well as radio waves and first combustion engine invention. Took about a hundred years or so to get to the first airplane. Then about 70 to send humans to the moon,  and 15 years after, the internet. We are on a crazy accelerating ride towards a completely unkown reality and at any given point we have no concept or notion of what possibilities lie beyond the next major civilization disrupter until after the thing actually happens!
@@ -17,7 +19,7 @@ Imagine attempting to explain to a normal person in 1900 that someone will creat
 
 Our tiny technological awakening means that 100% (or pretty damn close) of all intelligent life in our galaxy has been around significantly longer. Imagine another intelligence that had a tiny technological headstart on us, could we ever be capable of comprehending something that will be invented after 5000 years of exponential technological advancement from where we are now? that's impossible.
 
-Some great scifi writers were able to somehow navigate beyond the limits of our imagination and explore what may lie on the highway to wherever all of this is going, one of the best examples of this I've ever read is a short story by Isaac Asimov called "[The Last Question](https://imgur.com/gallery/9KWrH)". In it Asimov imagines how the very nature of humans will change across vast amounts of technological time co-evolving and eventually superseded by a thing that suspiciously resembles where Google is going for.
+Some great scifi writers were able to somehow navigate beyond the limits of our imagination and explore what may lie on the highway to wherever all of this is going, one of the best examples of this I've ever read is a short story by Isaac Asimov called "[The Last Question](https://imgur.com/gallery/9KWrH)" ([local backup for when imgur is gone]({{site.baseurl}}assets/comics/the_last_question.jpeg)). In it Asimov imagines how the very nature of humans will change across vast amounts of technological time co-evolving and eventually superseded by a thing that suspiciously resembles where Google is going for.
 
 
 ## But what about the Fermi paradox?
@@ -38,7 +40,7 @@ UAPs (Unidentified Aerial Phenomenon) are what the US government calls what prev
 
 One of the most wide spread and oldest conspiracy theories is that the american government are hiding that they are in posession of alien technology and/or they are in contact with some aliens on some level. You must have heard of area 51, roswell, alien abductions, or the endless stream of holywood movies portraying the government covering up alien involvement in things.
 
-I was watching a [series of short videos that investigate](www.youtube.com/watch?v=g89Zzz8a4E8&list=PLob1mZcVWOaiRpBuQDWKzNuBKBjNjajsT) and interview military personale involved in the recent government released UAP videos and I realized there is indeed a conspiracy, but it isn't that someone has some secret information.. rather that the US government wants to pretend none of this is happening because executive military/government people who like ambition ladders consider any "aliens" like talk to be a threat to their ladder-climbing so they look the other way when it comes up and bury it in any way they can when no one is looking. There is a lot of stigma about it and it's not just in the military but in society at large. This stigma was behind how long it took for this phenomenon to be confirmed.
+I was watching a [series of short videos that investigate](https://www.youtube.com/watch?v=g89Zzz8a4E8&list=PLob1mZcVWOaiRpBuQDWKzNuBKBjNjajsT) and interview military personale involved in the recent government released UAP videos and I realized there is indeed a conspiracy, but it isn't that someone has some secret information.. rather that the US government wants to pretend none of this is happening because executive military/government people who like ambition ladders consider any "aliens" like talk to be a threat to their ladder-climbing so they look the other way when it comes up and bury it in any way they can when no one is looking. There is a lot of stigma about it and it's not just in the military but in society at large. This stigma was behind how long it took for this phenomenon to be confirmed.
 
 
 ## What happened?
