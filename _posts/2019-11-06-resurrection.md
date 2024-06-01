@@ -44,7 +44,7 @@ Will talk more about Zamron's remaster progress in the future.
 
 Here's a sneak peek for what we currently have:
 
- <video width="720" height="480" autoplay>
+ <video width="720" height="480" controls loop>
   <source src="{{site.baseurl}}assets/videos/zamron_sneakpeek.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video> 

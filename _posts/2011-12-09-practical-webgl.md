@@ -17,10 +17,6 @@ But let's face it, WebGL as a game platform would still suffer from multiple dis
 
 It is still very exciting because of one thing: availability across a large user base.. given the fact that recent handheld devices have real GPUs built in them, things like [NVIDIA Tegra](https://en.wikipedia.org/wiki/Tegra) will eventually close the performance/capabilities gap between handheld and mainstream graphics which is already kinda happening! take a look at gaming on the recent hot Android/Tegra3 based Asus Transformer Prime tablet (too much awesome :D)
 
-<figure class="video_container">
-	<iframe width="540" height="304" src="https://www.youtube.com/embed/hL5Pg15eDBU" frameborder="0" allowfullscreen></iframe>
-</figure>
-
 So let's imagine writing an HTML5/WebGL game that instantly runs on any WebGL supporting browser regardless of platform and looks as good as these games... not hard to do technically if it isn't already possible, all the platform dependent mess is sorted by the browser while we get a thin layer between our game and the actual GPU underneath...
 
 ![Yeaaa]({{site.baseurl}}assets/photos/tumblr/emoji-1.png)
