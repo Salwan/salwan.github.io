@@ -7,7 +7,7 @@ tags: [linux,opengl,raspberrypi]
 ---
 {% include JB/setup %}
 
-After [last post](https://zenithsal.com/raspberrypi/2023/03/10/running-native-mode-gl-on-raspberry-pi-zero) I had a few realizations when I compiled raylib and tested the same examples on my aging Macbook Pro that I've revived. The module music example crashes the same way! so the RPiZ/3 were innocent. And the colored cubes example is very expensive to run on the Intel Iris 5100 too which is not a slouch. So I had to redo these two tests to make sure I made a correct evaluation.
+After [last post](https://zenithsal.cloudmillgames.com/raspberrypi/2023/03/10/running-native-mode-gl-on-raspberry-pi-zero) I had a few realizations when I compiled raylib and tested the same examples on my aging Macbook Pro that I've revived. The module music example crashes the same way! so the RPiZ/3 were innocent. And the colored cubes example is very expensive to run on the Intel Iris 5100 too which is not a slouch. So I had to redo these two tests to make sure I made a correct evaluation.
 
 First, running a different cubes drawing demo on RPiZ resulted in a solid 60 fps:
 

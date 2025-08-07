@@ -67,7 +67,7 @@ I re-learned this lesson with VOLGUARD. A game I gave 6 days but it took nearly 
 
 The biggest time sink is the enemies behavior. Unlike the majority of shovelware games out there that tend to implement enemies with a single braincell that basically says: "see player? run at and attack player". VOLGUARD has actual relatively complex behaviors. A ton of them. Out of nearly 28 variants of enemies, there are roughly 20 of them with unique behaviors!
 
-I developed a good pace in implementing these behaviors and tweaking them to approximate the original game. [My last blog post](https://zenithsal.com/gamedev/2022/04/03/state-management-with-coroutines) was actually based on that.
+I developed a good pace in implementing these behaviors and tweaking them to approximate the original game. [My last blog post](https://zenithsal.cloudmillgames.com/gamedev/2022/04/03/state-management-with-coroutines) was actually based on that.
 
 There are 5 missions. Each introduce new enemies and more variations in behaviors. This game goes to the school of Souls.. you'll die alot but it's because you made a mistake and you can do better. Make no mistakes and you'll breeze right through.
 

@@ -9,7 +9,7 @@ published: true
 
 {% include JB/setup %}
 
-A while ago I used a simple benchmark to very roughly compare performance on multiple platforms: [PC-6002 vs 80s Computers Benchmark](http://zenithsal.com/pc-6002/2018/04/30/pc-6002-vs-80s-computers-benchmark) and got some interesting results.
+A while ago I used a simple benchmark to very roughly compare performance on multiple platforms: [PC-6002 vs 80s Computers Benchmark](http://zenithsal.cloudmillgames.com/pc-6002/2018/04/30/pc-6002-vs-80s-computers-benchmark) and got some interesting results.
 
 Recently I got a Raspberry Pi 4 and wanted to figure out how its new CPU compare to other platforms so I went back to that simple benchmark I used, scaled it up by 1000x and used it in many different ways on many different devices and platforms. I think the results are noteworthy :) but it's still just for fun, this is by no means a benchmark that should be taken seriously.
 

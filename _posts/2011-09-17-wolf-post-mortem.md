@@ -21,7 +21,7 @@ Take a look, a pixelated on purpose game :)
 
 ![Wolf Prototype]({{site.baseurl}}assets/photos/tumblr/wolf-1.jpg)
 
-Here, try the demo << [WOLF DEMO](https://zenithsal.com/other/wolf/wolf.html) >> controls: arrow keys, A/D for strafing, Ctrl for firing, and 1/2 to switch weapon (punching or a pistol you can pick up).
+Here, try the demo << [WOLF DEMO](https://zenithsal.cloudmillgames.com/other/wolf/wolf.html) >> controls: arrow keys, A/D for strafing, Ctrl for firing, and 1/2 to switch weapon (punching or a pistol you can pick up).
 
 I faced a number of frustrations that unfortunately were a result of introducing untried and untested Flash 3d libraries to power the game, but hey, I learned my lesson :)
 
