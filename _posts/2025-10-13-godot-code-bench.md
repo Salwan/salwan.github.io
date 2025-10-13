@@ -11,7 +11,7 @@ Yesterday I found this Godot little bench I created a few years ago to quickly e
 
 At the time (a few years ago), I used my Nvidia Shield TV as the analogue for the Switch and the performance didn't inspire confidence. I had two choices switch to the .NET version of Godot or adopt GDScript and use C++ for later optimization of bottlenecks.
 
-I opted for the C++ route since that's my main language and I intended to port the game to Switch later (though at the time I identified lack of hot-reloading of Godot's native extensions as a problem which has been implemented solved around Godot 4.2). Ultimately the project didn't get further than a vertical slice and a mini demo so never needed to cache my C++ in.
+I opted for the C++ route since that's my main language and I intended to port the game to Switch later (though at the time I identified lack of hot-reloading of Godot's native extensions as a problem which has been solved around Godot 4.2). Ultimately the project didn't get further than a vertical slice and a mini demo so never needed to cash my C++ in.
 
 Today just to have a few hours of fun I wanted to revisit that simple bench to plot Godot's performance progress. This is by no means an objective benchmark it's just for fun so I'm not even gonna share the code, but still a good indication of comparative interpreter progression I think.
 
