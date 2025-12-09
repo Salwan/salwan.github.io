@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Zenithia</title><link>/pages/</link><description>Recent content in Pages on Zenithia</description><generator>Hugo</generator><language>en-nz</language><lastBuildDate>Thu, 07 Aug 2025 18:07:25 +0300</lastBuildDate><atom:link href="/pages/index.xml" rel="self" type="application/rss+xml"/><item><title>AGDN Papers Competition</title><link>/pages/agdncontest/</link><pubDate>Thu, 07 Aug 2025 18:07:25 +0300</pubDate><guid>/pages/agdncontest/</guid><description>&lt;p>Won &lt;a href="http://agdn-online.com/communities.aspx?view=posts&amp;amp;threadid=654" target="_blank">first place in the Arabic Game Development papers competition&lt;/a> hosted by &lt;a href="http://agdn-online.com/" target="_blank">Arabic Game Developer Network&lt;/a> for my two parts paper about character animation programming.
+The two papers are of course written in Arabic.&lt;/p>
+&lt;h2 id="part-1-character-animation-for-programmers-حركة-الشخصيات-ثلاثية-الأبعاد-للمبرمجين">Part 1: Character Animation for Programmers حركة الشخصيات ثلاثية الأبعاد للمبرمجين&lt;/h2>
+&lt;p>This paper discusses the principle techniques for character animation programming used in games and realtime applications in a fun and practical way.
+The techniques covered include:&lt;/p>
+&lt;ul>
+&lt;li>Hierarchical animation&lt;/li>
+&lt;li>Skeletal animation&lt;/li>
+&lt;li>Character skinning&lt;/li>
+&lt;li>Initial posing&lt;/li>
+&lt;li>Keyframed animation&lt;/li>
+&lt;li>Animation blending&lt;/li>
+&lt;li>Facial animation&lt;/li>
+&lt;li>Cloth simulation&lt;/li>
+&lt;li>Forward and Inverse Kinematics&lt;/li>
+&lt;/ul>
+&lt;p>The sample code for part 1 includes multiple projects each demonstrating a different aspect of character animation:&lt;/p></description></item><item><title>Al-Warka PC-6002 Reference</title><link>/pages/pc6002/</link><pubDate>Wed, 15 Mar 2023 11:36:02 +1300</pubDate><guid>/pages/pc6002/</guid><description>&lt;p>Work in Progress&lt;/p>
+&lt;h1 id="general">General&lt;/h1>
+&lt;p>Through out this manual I&amp;rsquo;ll be referring to the platform as PC-6 which includes these models:&lt;/p>
+&lt;ul>
+&lt;li>Al-Warka PC-6001&lt;/li>
+&lt;li>Al-Warka PC-6002&lt;/li>
+&lt;li>NEC PC-6001 Mk2&lt;/li>
+&lt;li>NEC PC-6001 Mk2 SR&lt;/li>
+&lt;li>NEC PC-6601&lt;/li>
+&lt;li>NEC PC-6601 SR&lt;/li>
+&lt;li>NEC Mr PC&lt;/li>
+&lt;/ul>
+&lt;p>On the BASIC front, this manual is biased towards N60m-BASIC, N66-BASIC, and N66SR-BASIC. These are the interpreters used in Mode 5 and Mode 6 on PC-6.&lt;/p>
+&lt;h2 id="color-palette">Color Palette&lt;/h2>
+&lt;p>The PC-6 and for Mode 5 (text and screen 3) and Mode 6 (text and screen 2), full 16-color screen modes use this palette:&lt;/p></description></item></channel></rss>

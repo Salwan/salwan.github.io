@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Shape Verse 2</title>
+    </head>
+    <style> 
+    button {
+        font-size: 16px;
+        background-color:rgb(255, 235, 209);
+    } 
+    button#reset {
+        font-weight: bolder;
+        background-color:rgb(211, 211, 231);
+    }
+    button#delete {
+        font-weight: bold;
+        color: #c00;
+        background-color:rgb(243, 250, 248);
+    }
+    button#delete:disabled {
+        color: #c88;
+    }
+    </style>
+    <body>
+        <p id="loadingMessage">Loading ...</p>
+        <script src="bundle.js"></script>
+        <canvas id="scCanvas" height="640" width="1024"></canvas>
+        <div>
+            <button name="reset" id="reset" style="margin-right: 1em">Reset Scene</button>
+            <button name="rect" id="rect">+Rectangle</button>
+            <button name="circle" id="circle">+Circle</button>
+            <button name="triangle" id="triangle">+Triangle</button>
+            <button name="star" id="star">+Star</button>
+            <button name="delete" disabled="true" id="delete" style="margin-left: 1em">Delete Selected</button>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+{
+"frames": {
+	"smb1_misc_sprites_89.png": {
+		"frame": {"x":6, "y":0, "w":5, "h":8},
+		"spriteSourceSize": {"x":0,"y":0,"w":5,"h":8},
+		"sourceSize": {"w":5,"h":8}
+	},
+	"smb1_misc_sprites_90.png": {
+		"frame": {"x":0, "y":9, "w":5, "h":8},
+		"spriteSourceSize": {"x":0,"y":0,"w":5,"h":8},
+		"sourceSize": {"w":5,"h":8}
+	},
+	"smb1_misc_sprites_91.png": {
+		"frame": {"x":0, "y":0, "w":5, "h":8},
+		"spriteSourceSize": {"x":0,"y":0,"w":5,"h":8},
+		"sourceSize": {"w":5,"h":8}
+	}
+
+},
+"meta": {
+	"image": "sprites.png",
+	"size": {"w": 12, "h": 18},
+	"scale": "1"
+}
+}

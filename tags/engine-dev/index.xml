@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Engine-Dev on Zenithia</title><link>/tags/engine-dev/</link><description>Recent content in Engine-Dev on Zenithia</description><generator>Hugo</generator><language>en-nz</language><lastBuildDate>Mon, 04 Apr 2022 00:55:00 +1200</lastBuildDate><atom:link href="/tags/engine-dev/index.xml" rel="self" type="application/rss+xml"/><item><title>State Management with Coroutines</title><link>/posts/state-management-with-coroutines/</link><pubDate>Mon, 04 Apr 2022 00:55:00 +1200</pubDate><guid>/posts/state-management-with-coroutines/</guid><description>&lt;p>Say we&amp;rsquo;re working on a GTA-style game and we want to create a behavior sequence for a mission:&lt;/p>
+&lt;ul>
+&lt;li>Car (with an AI driver) spawns at location A and waits for the player to get in.&lt;/li>
+&lt;li>Car drives to location B.&lt;/li>
+&lt;li>Player gets out.&lt;/li>
+&lt;li>Car waits for player to get back in with item within 5 minutes.&lt;/li>
+&lt;li>Mission success!&lt;/li>
+&lt;/ul>
+&lt;h2 id="manual-state-management">Manual State Management&lt;/h2>
+&lt;p>The problem with straight-forward gameplay programming is it&amp;rsquo;s made of an &lt;code>Update()&lt;/code> function that gets called ±60 times a second.&lt;/p></description></item></channel></rss>

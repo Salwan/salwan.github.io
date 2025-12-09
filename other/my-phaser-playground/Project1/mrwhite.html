@@ -1,0 +1,422 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Project1</title>
+    <meta charset="utf-8">
+    <script src="//cdn.jsdelivr.net/phaser/2.4.6/phaser.js"></script>
+    <script src="./code/testclass.js"></script>
+</head>
+<body>
+    <div id="game"></div>
+    <script type="text/javascript">
+    'use strict';
+    
+    var game = new Phaser.Game(670, 526, Phaser.AUTO, 'game');
+    var gfxDraw = null;
+    var chimnies = [];
+    
+    // Class: Building
+    // - Constructor
+    var Building = function(game, x, y, key) {
+        Phaser.Sprite.call(this, game, x, y, key);
+        this.chimney = null;
+        
+        if(key == 'building_chimney') {
+            this.chimney = new ChimneySmoke(x + 157, y + 11, 20, 35, 0x606060);
+        } else if(key == 'building_back_chimney') {
+            this.chimney = new ChimneySmoke(x + 40, y + 15, 12, 30, 0x4b4b4b);
+        }
+        if(this.chimney) {
+            this.chimney.create(game);
+            chimnies.push(this.chimney);
+        }
+    }
+    Building.prototype = Object.create(Phaser.Sprite.prototype);
+    Building.prototype.constructor = Building;
+    // - Methods
+    
+    
+    // Class: MrWhiteGame
+    var MrWhiteGame = function() {
+    
+    };
+    MrWhiteGame.prototype = {
+        init: function () {
+            this.game.renderer.renderSession.roundPixels = true;
+            this.game.stage.backgroundColor = '#222222';
+            
+            game.time.advancedTiming = true;
+            
+            // Physics
+            this.physics.startSystem(Phaser.Physics.ARCADE);
+            this.physics.arcade.gravity.y = 2500;
+            
+            // Scene
+            this.ground = null;
+            this.mrwhite = null;
+            this.sky = null;
+            this.groundTile = null;
+            this.backBuildings = null;
+            this.buildingSeparator = null;
+            this.frontBuildings = null;
+            this.poles = null;
+            
+            // Game
+            this.groundLevel = 502;
+            
+            // Controller
+            this.facing = 'right';
+            this.jumpTimer = 0;
+            this.prevStanding = true;
+            
+            // Inputs
+            this.cursors = null;
+            this.tap = false;
+            this.pad1 = null;
+        },
+        
+        preload: function() {
+            this.load.crossOrigin = 'anonymous';
+            this.load.spritesheet('mrwhite',            'assets/bmp/MrWhite.fw.png', 50, 84, 6);
+            this.load.image('building',                 'assets/bmp/Building.fw.png');
+            this.load.image('building_chimney',         'assets/bmp/BuildingChimney.fw.png');
+            this.load.image('building_eatery',          'assets/bmp/BuildingEatery.fw.png');
+            this.load.image('building_back',            'assets/bmp/BuildingBackRow.fw.png');
+            this.load.image('building_back_chimney',    'assets/bmp/BuildingBackRowChimney.fw.png');
+            this.load.image('building_separator',       'assets/bmp/BuildingSeparator.fw.png');
+            this.load.image('ground_tile',              'assets/bmp/GroundTile.fw.png');
+            this.load.image('sky',                      'assets/bmp/Sky.fw.png');
+            this.load.image('pole',                     'assets/bmp/Pole.fw.png');
+            this.load.audio('sfx_jump',                 'assets/sfx/jump.wav', true);
+            this.load.audio('sfx_step',                 'assets/sfx/step.wav', true);
+            this.load.audio('sfx_step_loop',            'assets/sfx/step_loop.ogg', true);
+            this.load.audio('sfx_fall_land',            'assets/sfx/fall_land.wav', true);
+            this.load.audio('bgm',                      'assets/sfx/doxent_-_Flower_mono_shiftup.mp3', true);
+        },
+        
+        create: function() {
+            // Visuals
+            // - Backdrop
+            this.sky = this.add.sprite(0, 0, 'sky');
+            
+            // - Buildings
+            this.backBuildings = this.add.group();
+            {
+                var bb = this.cache.getImage('building_back');
+                var s = 0;
+                var bc = ['building_back', 'building_back_chimney'];
+                for(var x = -bb.width; x < this.world.width; x+=bb.width) {
+                    s = Math.floor(Math.random() * 45) + 10;
+                    x += s;
+                    var br = Math.floor(Math.random() * bc.length);
+                    var back_building = new Building(game, x, this.groundLevel - bb.height, bc[br]);
+                    this.backBuildings.add(back_building);
+                }
+            }
+            this.buildingSeparator = this.add.tileSprite(0, this.groundLevel - 56, this.world.width, 56, 'building_separator');
+            
+            this.frontBuildings = this.add.group();
+            this.poles = this.add.group();
+            {
+                var fb = this.cache.getImage('building');
+                var pole = this.cache.getImage('pole');
+                var s = 0;
+                var fc = ['building', 'building_chimney', 'building_eatery'];
+                for(var x = -fb.width * 0.7; x < this.world.width; x+=fb.width) {
+                    s = Math.floor(Math.random() * 45) + 10;
+                    x += s;
+                    if(s > 40) {
+                        this.poles.create(Math.floor(x - s + (pole.width / 2.0)), this.groundLevel - pole.height, 'pole');
+                    }
+                    var fr = Math.floor(Math.random() * fc.length);
+                    var front_building = new Building(game, x, this.groundLevel - fb.height, fc[fr]);
+                    this.frontBuildings.add(front_building);
+                }
+            }
+            
+            // - Ground
+            this.groundTile = this.add.tileSprite(0, 502, this.world.width, 24, 'ground_tile');
+            this.ground = this.add.physicsGroup();
+            this.ground.add(this.groundTile);
+            this.ground.setAll('body.allowGravity', false);
+            this.ground.setAll('body.immovable', true);
+            
+            // - MrWhite
+            this.mrwhite = this.add.sprite(422, 505, 'mrwhite');
+            this.physics.arcade.enable(this.mrwhite);
+            this.mrwhite.body.collideWorldBounds = true;
+            this.mrwhite.body.setSize(50, 54, 0, -3);
+            this.mrwhite.animations.add('idle', [0,1,0,2], 4, true);
+            this.mrwhite.animations.add('walk', [3, 4], 4, true);
+            this.mrwhite.animations.add('jump', [0,5,0,6], 4, true);
+            this.mrwhite.animations.play('idle');
+            this.mrwhite.anchor = new Phaser.Point(0.5, 1.0);
+            
+            // Audio
+            this.sfx_jump = this.add.audio('sfx_jump');
+            this.sfx_step = this.add.audio('sfx_step');
+            this.sfx_step_loop = this.add.audio('sfx_step_loop');
+            this.sfx_step_loop.onLoop.add(function() { this.sfx_step.play(); }, this);
+            this.sfx_fall_land = this.add.audio('sfx_fall_land');
+            
+            // Input
+            this.cursors = this.input.keyboard.createCursorKeys(); 
+            game.input.onTap.add(this.onTap, this);
+            game.input.gamepad.start();
+            console.log("Gamepads Support: " + game.input.gamepad.supported);
+            if(game.input.gamepad.supported) {
+                console.log("Number of pads connected: " + game.input.gamepad.padsConnected);
+                this.pad1 = game.input.gamepad.pad1;
+                this.pad1.addCallbacks(this, {onConnect: this.initGamepad});
+                //this.pad1.onConnectCallback.add(this.initGamepad, this);
+            }
+            
+            // Draw
+            gfxDraw = game.add.graphics(0, 0); // Used to draw any custom stuff, gets cleared every frame
+            
+            // BGM
+            this.bgm = this.add.audio('bgm');
+            this.bgm.onDecoded.add(this.onBGMDecoded, this);
+            
+            // Test class
+            var tc = new TestClass();
+            tc.doStuff();
+        },
+        
+        initGamepad: function() {
+            this.buttonA = game.input.gamepad.pad1.getButton(Phaser.Gamepad.BUTTON_0);  
+            this.buttonA.onDown.add(this.onButtonADown, this);
+        },
+        
+        onButtonADown: function() {
+            this.tap = true;
+        },
+        
+        onTap: function(pointer, double_tap) {
+            this.tap = true;   
+        },
+        
+        onBGMDecoded: function() {
+            this.bgm.play('', 0, 0.6, true);
+        },
+        
+        update: function() {
+            // Collision
+            this.physics.arcade.collide(this.mrwhite, this.ground);
+            
+            // Controller
+            var standing = this.mrwhite.body.blocked.down || this.mrwhite.body.touching.down;
+            if(this.prevStanding != standing) {
+                if(standing) { // Landed
+                    //this.sfx_fall_land.play(null, 0, 0.6, false);
+                    this.sfx_step.play(null, 0, 1.0, false);
+                } else { // Took off
+                    
+                }
+                this.prevStanding = standing;
+            }
+            this.mrwhite.body.velocity.x = 0;
+            if(this.cursors.left.isDown || (this.pad1 && this.pad1.axis(0) <= -0.9)) {
+                this.mrwhite.body.velocity.x = -200;
+                if(this.facing !== 'left') {
+                    this.facing = 'left';
+                    this.mrwhite.scale = new Phaser.Point(-1.0, 1.0);
+                }
+            } else if(this.cursors.right.isDown || (this.pad1 && this.pad1.axis(0) >= 0.9)) {
+                this.mrwhite.body.velocity.x = 200;
+                if(this.facing !== 'right') {
+                    this.facing = 'right';
+                    this.mrwhite.scale = new Phaser.Point(1.0, 1.0);
+                }
+            }
+            if(standing && (this.cursors.up.isDown || this.tap) && this.time.time > this.jumpTimer) {
+                this.mrwhite.body.velocity.y = -800;
+                this.jumpTimer = this.time.time + 750;
+                this.sfx_jump.play();
+            }
+            this.tap = false;
+            
+            // Animation
+            if(this.mrwhite.body.velocity.x !== 0) {
+                if(standing) {
+                    // On ground
+                    if(this.facing == 'left') {
+                        this.mrwhite.animations.play('walk');
+                        if(!this.sfx_step_loop.isPlaying) {
+                            //this.sfx_step.loopFull(1.0);
+                            //this.sfx_step_loop.play(null, 0, 1.0, true, true);
+                        }
+                    } else if(this.facing == 'right') {
+                        this.mrwhite.animations.play('walk');
+                        if(!this.sfx_step_loop.isPlaying) {
+                            //this.sfx_step.loopFull(1.0);
+                            //this.sfx_step_loop.play(null, 0, 1.0, true, true);
+                        }
+                    } else {
+                        this.sfx_step_loop.stop();
+                    }
+                } else {
+                    // In air
+                    this.mrwhite.animations.play('jump');
+                    this.sfx_step_loop.stop();
+                }
+            } else {
+                this.mrwhite.animations.play('idle');
+                this.sfx_step_loop.stop();
+            }
+            
+            // Smoke
+            //this.chmnyTest.update();
+            for(var i = 0; i < chimnies.length; ++i) {
+                chimnies[i].update();
+            }
+        },
+        
+        render: function() {
+            gfxDraw.clear();
+            
+            //game.debug.pointer(game.input.mousePointer);
+            game.debug.text(game.time.fps, game.world.width - 13, 10, '#000000', '9px courier');
+            game.debug.text(game.time.fps, game.world.width - 14, 9, '#ffffff', '9px courier');
+            
+            //this.chmnyTest.render();
+            for(var i = 0; i < chimnies.length; ++i) {
+                chimnies[i].render();
+            }
+            
+            // Noise
+            var palette = [0xff0000, 0x00ff00, 0x0000ff, 0xffff00, 0x00ffff];
+            var rx = 0, ry = 0;
+            for(var i = 0; i < palette.length; ++i) {
+                gfxDraw.beginFill(palette[i], 0.15);
+                for(var j = 0; j < Math.floor(150.0 / palette.length); ++j) {
+                    rx = Math.floor((Math.random() * game.world.width) / 2.0);
+                    ry = Math.floor((Math.random() * game.world.height) / 2.0);
+                    gfxDraw.drawRect(rx * 2, ry * 2, 2, 2);
+                }
+                gfxDraw.endFill();
+            }
+        },
+    };
+  
+    // Class SmokeParticle
+    // - Constructor
+    var SmokeParticle = function(_x, _y, _color, _lifeSteps, _killY) {
+        this.color = _color || 0xffffff;
+        this.alive = true;
+        this.x = _x;
+        this.y = _y;
+        this.lifeSteps = _lifeSteps || 5;
+        this.killY = _killY || (_y - 2);
+    };
+    // - Methods
+    SmokeParticle.prototype.step = function(new_particles) {
+        if(this.alive) {
+            if(this.y <= this.killY) {
+                this.alive = false;
+            } else {
+                // 50% chance of splitting
+                var splitting = Phaser.Utils.chanceRoll(15);
+                if(this.y - this.killY <= 5) { // disable splitting when near kill Y
+                    splitting = false;
+                }
+                var sx = this.x.valueOf();
+                // Weighted direction
+                if(Phaser.Utils.chanceRoll(35)) { // Left
+                    this.x -= 2;
+                    sx += 2;
+                } else { // Right
+                    this.x += 2;
+                    sx -= 2;
+                }
+                this.y -= 2;
+                var ls = Math.floor(Math.random() * 5) + 2;
+                if(splitting && ls > 0) {
+                    new_particles.push(new SmokeParticle(sx, this.y, this.color, ls, this.killY));
+                }
+                this.lifeSteps -= 1;
+                if(this.lifeSteps <= 0) {
+                    this.alive = false;
+                }
+            }
+        }
+    };
+    SmokeParticle.prototype.render = function(gfx) {
+        if(this.alive) {
+            gfx.beginFill(this.color, 1.0);
+            gfx.drawRect(this.x, this.y, 2, 2);
+            gfx.endFill();
+        }
+    };
+    SmokeParticle.prototype.isAlive = function() {
+        return this.alive;
+    }
+    
+    
+    // Class ChimneySmokey
+    // - Constructor
+    var ChimneySmoke = function(_x, _y, _width, _height, _color) {
+        // Properties
+        this.x = _x || 0;
+        this.y = _y || 0;
+        this.width = _width || 20;
+        this.height = _height || 50;
+        this.color = _color || 0xffffff;
+        this.bmpData = null;
+        this.key = '';
+        //this.graphics = null;
+        this.smokeParticles = [];
+        this.newBornSmokeParticles = [];
+        this.stepTimer = 0.0;
+        this.maxSmokeParticles = 12;
+    };
+    // Statics
+    ChimneySmoke.sid = 0;
+    ChimneySmoke.stepsPerSecond = 10.0;
+    // - Methods and Properties
+    ChimneySmoke.prototype = {
+        // Methods
+        create: function() {
+            this.key = 'smoke' + ChimneySmoke.sid;
+            ChimneySmoke.sid += 1;
+        },
+        update: function() {
+            this.stepTimer += game.time.physicsElapsed;
+            if(this.stepTimer >= 1.0/ChimneySmoke.stepsPerSecond) {
+                var sw = Math.floor(Math.random() * (this.width / 4.0)) * 4.0;
+                this.smokeParticles.push(new SmokeParticle(this.x + (this.width / 2) + sw, this.y - 2, this.color, 10, -this.height));
+                this.stepTimer -= 1.0/ChimneySmoke.stepsPerSecond;
+                this.smokeParticles.forEach(this.smokeStepCallback, this);
+                this.smokeParticles = this.smokeParticles.filter(this.removeDeadSmokeCallback, this);
+                if(this.smokeParticles.length > 12) {
+                    this.smokeParticles.slice(-12)
+                }
+                for(var i = 0; i < this.newBornSmokeParticles.length; ++i) {
+                    this.smokeParticles.push(this.newBornSmokeParticles[i]);
+                }
+            }
+        },
+        render: function() {
+            //this.graphics.clear();
+            if(this.smokeParticles.length > 0) {
+                this.smokeParticles.forEach(this.smokeRenderCallback, this);
+            }
+        },
+        smokeStepCallback: function(smoke_particle) {
+            smoke_particle.step(this.newBornSmokeParticles);
+        },
+        smokeRenderCallback: function(smoke_particle) {
+            smoke_particle.render(gfxDraw);
+        },
+        removeDeadSmokeCallback: function(smoke_particle) {
+            return smoke_particle.alive;
+        }
+    };
+    
+    
+    game.state.add('Game', MrWhiteGame, true);
+    
+    </script>
+    
+</body>
+</html>
